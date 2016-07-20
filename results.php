@@ -1,7 +1,7 @@
 <?php 
 $current_level 		= intval($_GET['clvl']);
 $current_xp 			= intval($_GET['cxp']);
-$xp_earned 				=	intval($_GET['xpe']);
+$xp_earned 				= intval($_GET['xpe']);
 
 if($current_level == "" || $current_xp == "" || $xp_earned == ""){
 	echo '<p>Hmm, looks like you forgot to type in something. Try filling out the form again.</p><a href="/">Back</a>';
