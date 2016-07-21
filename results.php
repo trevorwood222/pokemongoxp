@@ -1,7 +1,7 @@
 <?php 
 $current_level 		= intval($_GET['clvl']);
 $current_xp 			= intval($_GET['cxp']);
-$xp_earned 				= intval($_GET['xpe']);
+$xp_earned 				=	intval($_GET['xpe']);
 
 if($current_level == "" || $current_xp == "" || $xp_earned == ""){
 	echo '<p>Hmm, looks like you forgot to type in something. Try filling out the form again.</p><a href="/">Back</a>';
@@ -24,6 +24,7 @@ if($current_level >= $levels_count){
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pokemon GO XP Calculator Results</title>
 
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.js"></script>
@@ -33,10 +34,10 @@ if($current_level >= $levels_count){
 <body>
 
 	<div class="results_main_header">
-		<?php echo "<p>A level <b>$current_level</b>, with <b>$current_xp</b> XP, earning <b>$xp_earned</b> XP per 5 minutes would take this long per level.</p>";?>
-		<a style="margin:15px 0px;display:block; float:left;" href="/">Back to calculator</a>
-		<a style="margin:15px 0px;display:block; float:right;" href="/rawdata">Raw Data</a>
+		<a style="float:left;" href="/">Back to calculator</a>
+		<a style="float:right;" href="/rawdata">Raw Data</a>
 		<div style="clear:both;"></div>
+		<?php echo "<p>A level <b>$current_level</b>, with <b>$current_xp</b> XP, earning <b>$xp_earned</b> XP per 5 minutes would take this long per level.</p>";?>
 	</div>
 
 	<div class="results_ul_header">
@@ -86,7 +87,7 @@ if($current_level >= $levels_count){
 		'<li>
 			<div class="first">'.$a_level.'</div>
 			<div class="second">'.$hours.$minutes.'</div>
-			<div class="three highlightoff"><div class="redButton">Rewards</div></div>
+			<div class="three highlightoff"><div class="redButton small">Rewards</div></div>
 			<div style="clear:both;"></div>
 			<div class="rewards" style="display:none;">'.$rewards.'</div>
 		</li>';

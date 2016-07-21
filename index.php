@@ -8,6 +8,7 @@
 	<meta name="description" content="Pokemon Go XP Calculator, Find out how long it will be until you reach your next trainer level and see what rewards await you!">
 	<meta name="keywords" content="Pokemon Go, ">
 
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 
 </head>
@@ -30,11 +31,27 @@
 				<label for="xpe">About how much XP are you earning every <b>5 minutes<b>?</label>
 				<input type="number" name="xpe" id="xpe" value="250" min="50" max="150000">
 					
-				<input type="submit" value="Calculate!" class="blueButton">
+				<input type="submit" value="Calculate!" class="redButton big">
 				
 			</form>
 		</div>
 		<div style="clear:both;"></div>
+
+		<div class="language_option">
+			<div style="float:right;">
+				<p>Language: </p>
+				<select>
+					<option>Chinese</option>
+					<option selected>English</option>
+					<option>Japanese</option>
+					<option>Korean</option>
+					<option>Spanish</option>
+				</select>
+				<div style="clear:both;"></div>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+
 	</div>
 
 <script>
@@ -47,6 +64,11 @@
   ga('send', 'pageview');
 
 </script>
+
+<!-- <a href="">EN</a>
+<a href="">JP</a> -->
+
+
 
 
 </body>
