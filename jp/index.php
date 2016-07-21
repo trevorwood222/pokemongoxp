@@ -41,7 +41,7 @@
 			<div style="float:right;">
 				<p>Language: </p>
 				<select onchange="javascript:location.href = this.value;">
-					<option>Chinese</option>
+					<option value="/cn/index.php">Chinese</option>
 					<option value="/index.php">English</option>
 					<option value="/jp/index.php" selected>Japanese</option>
 					<option>Korean</option>
