@@ -3,12 +3,15 @@ $current_level 		= intval($_GET['clvl']);
 $current_xp 			= intval($_GET['cxp']);
 $xp_earned 				=	intval($_GET['xpe']);
 
-if($current_level == "" || $current_xp == "" || $xp_earned == ""){
+// check if all values are set
+if($current_level == "" || $current_xp < 0 || $xp_earned == ""){
 	echo '<p>Hmm, looks like you forgot to type in something. Try filling out the form again.</p><a href="/">Back</a>';
 	exit();
 }
 
 include_once($_SERVER["DOCUMENT_ROOT"] . "/levels.php");
+
+// make sure we have data for this user
 $levels_count = count($levels)-1;
 if($current_level >= $levels_count){
 	echo "<p>Wow there, you're a high level pokemon trainer. Unfortunately we only have data for levels up to $levels_count</p><a href=\"/\">Back</a>";
@@ -48,6 +51,7 @@ if($current_level >= $levels_count){
 
 	<ul class="results_ul">
 	<?php
+
 	$minutes = 0;
 	$hours = 0;
 	$accumulative_xp = 0;
@@ -56,33 +60,43 @@ if($current_level >= $levels_count){
 		$minutes = 0;//reset minutes
 		$hours = 0;//reset hours
 
-		$a_level 					= $levels[$i]['level'];
-		$accumulative_xp 	= $levels[$i]['xp_req'] + $accumulative_xp;
-		$total_xp_req 		= $levels[$i]['total_xp_req'];
-		$unlocked_items 	= $levels[$i]['unlocked_items'];
-		$rewards 					= $levels[$i]['rewards'];
-		// echo "$a_level $accumulative_xp $total_xp_req $unlocked_items $rewards <br>";
+		// current level
+		$a_level = $levels[$i]['level'];
 
+		// xp_required for this level + xp required for previous levels
+		$accumulative_xp = $levels[$i]['xp_req'] + $accumulative_xp;
+
+
+		$total_xp_req = $levels[$i]['total_xp_req'];
+		$unlocked_items = $levels[$i]['unlocked_items'];
+		$rewards = $levels[$i]['rewards'];
+
+		// accumulative xp minus current xp
 		$xp_gap = $accumulative_xp-$current_xp;
 
 
+		// subtract xp_earned from xp_gap until 0
+		// increment minutes by 5
 		while($xp_gap >= 1){
 			$xp_gap = $xp_gap - $xp_earned;
 			$minutes = $minutes+5;
 		}
 
+		// convert minutes to hours
 		while($minutes >= 60){
 			$hours = $hours+1;
 			$minutes = $minutes - 60;
 		}
+
+		// add text to hours & minutes
 		if($hours == 0){$hours = "";
 		}elseif($hours > 1){$hours = $hours." hours ";
 		}else{$hours = $hours." hour ";}
-
 		if($minutes == 0){$minutes = "";
 		}elseif($minutes > 1){$minutes = $minutes." minutes";
 		}else{$minutes = $minutes." minute";}
 
+		// display results
 		echo 
 		'<li>
 			<div class="first">'.$a_level.'</div>
