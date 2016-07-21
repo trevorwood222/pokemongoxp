@@ -39,7 +39,7 @@
 
 		<div class="language_option">
 			<div style="float:right;">
-				<p>Language: </p>
+				<p>语言: </p>
 				<select onchange="javascript:location.href = this.value;">
 					<option value="/cn/index.php" selected>Chinese</option>
 					<option value="/index.php">English</option>
