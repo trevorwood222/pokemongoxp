@@ -31,7 +31,7 @@
 				<label for="xpe">每<b>5分钟<b>大约能获得多少XP?</label>
 				<input type="number" name="xpe" id="xpe" value="250" min="50" max="150000">
 					
-				<input type="submit" value="Calculate!" class="redButton big">
+				<input type="submit" value="计算!" class="redButton big">
 				
 			</form>
 		</div>
@@ -42,7 +42,7 @@
 				<p>Language: </p>
 				<select onchange="javascript:location.href = this.value;">
 					<option value="/cn/index.php">Chinese</option>
-					<option value="index.php" selected>English</option>
+					<option value="/index.php" selected>English</option>
 					<option value="/jp/index.php">Japanese</option>
 					<option value="/kr/index.php">Korean</option>
 					<option value="/es/index.php">Spanish</option>
