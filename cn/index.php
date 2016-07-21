@@ -16,19 +16,19 @@
 
 	<div class="container">
 		<div class="header">
-			<h1>Pokémon GO<br>XP Calculator</h1>
+			<h1>Pokémon GO<br>XP计算器</h1>
 			<!-- <p>How much longer until you level up?</p> -->
 		</div>
 
 		<div class="form_div">
 			<form action="/results" method="get">
-				<label for="clvl">Current Level</label>
+				<label for="clvl">目前等级</label>
 				<input type="number" id="clvl" name="clvl" value="1" min="1" max="1000">
 
-				<label for="cxp">Current XP amount</label>
+				<label for="cxp">目前XP</label>
 				<input type="number" id="cxp" name="cxp" value="100" min="1" max="1500000">
 
-				<label for="xpe">About how much XP are you earning every <b>5 minutes<b>?</label>
+				<label for="xpe">每<b>5分钟<b>大约能获得多少XP?</label>
 				<input type="number" name="xpe" id="xpe" value="250" min="50" max="150000">
 					
 				<input type="submit" value="Calculate!" class="redButton big">
