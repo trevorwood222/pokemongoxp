@@ -241,7 +241,7 @@ $levels[29] = array(
 	'xp_req' 						=> 300000,
 	'total_xp_req' 			=> 1650000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "???"
+	'rewards'						=> "Ultra Ball x10, Max Potion x15, Revive x10, Razz Berry x15"
 	);
 
 $levels[30] = array(

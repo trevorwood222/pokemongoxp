@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Pokemon GO XP Calculator</title>
+	<title>Pokemon GO XP計算機</title>
 
 	<meta charset="UTF-8">
 	<meta name="description" content="Pokemon Go XP Calculator, Find out how long it will be until you reach your next trainer level and see what rewards await you!">
@@ -16,22 +16,22 @@
 
 	<div class="container">
 		<div class="header">
-			<h1>Pokémon GO<br>XP Calculator</h1>
+			<h1>Pokémon GO<br>XP計算機</h1>
 			<!-- <p>How much longer until you level up?</p> -->
 		</div>
 
 		<div class="form_div">
-			<form action="/results" method="get">
-				<label for="clvl">Current Level</label>
+			<form action="/jp/results" method="get">
+				<label for="clvl">現在のレベル</label>
 				<input type="number" id="clvl" name="clvl" value="1" min="1" max="1000">
 
-				<label for="cxp">Current XP amount</label>
+				<label for="cxp">現在のXP量</label>
 				<input type="number" id="cxp" name="cxp" value="100" min="1" max="1500000">
 
-				<label for="xpe">About how much XP are you earning every <b>5 minutes<b>?</label>
+				<label for="xpe"><b>5分<b>でどれぐらいのXPをもらっていますか?</label>
 				<input type="number" name="xpe" id="xpe" value="250" min="50" max="150000">
 					
-				<input type="submit" value="Calculate!" class="redButton big">
+				<input type="submit" value="ハカル!" class="redButton big">
 				
 			</form>
 		</div>
@@ -39,13 +39,13 @@
 
 		<div class="language_option">
 			<div style="float:right;">
-				<p>Language: </p>
+				<p>言語: </p>
 				<select onchange="javascript:location.href = this.value;">
 					<option value="/cn/index.php">Chinese</option>
 					<option value="/index.php">English</option>
 					<option value="/jp/index.php" selected>Japanese</option>
-					<option>Korean</option>
-					<option>Spanish</option>
+					<!-- <option>Korean</option> -->
+					<!-- <option>Spanish</option> -->
 				</select>
 				<div style="clear:both;"></div>
 			</div>

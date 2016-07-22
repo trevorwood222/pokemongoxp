@@ -21,7 +21,7 @@
 		</div>
 
 		<div class="form_div">
-			<form action="/results" method="get">
+			<form action="/cn/results" method="get">
 				<label for="clvl">目前等级</label>
 				<input type="number" id="clvl" name="clvl" value="1" min="1" max="1000">
 

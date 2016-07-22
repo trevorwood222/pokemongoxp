@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Raw Data for Pokemon Go</title>
+	<title>Pokemon Go レベル情報</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -12,18 +12,18 @@
 <body>
 
 	<div style="padding:15px;">
-		<h1 >Raw Data for Pokemon Go</h1>
-		<a href="/">Back to calculator</a>
-		<p>Last Updated: <?php echo $last_level_update;?></p>
+		<h1>Pokemon Go レベル情報</h1>
+		<a href="/">計算機に戻る</a>
+		<p>: <?php echo $last_level_update;?></p>
 	</div>
 	<table class="rawdata_table">
 
 		<tr>
-			<th>Level</th>
-			<th>XP Required</th>
-			<th>Total XP</th>
-			<th>Unlocked Items</th>
-			<th>Rewards</th>
+			<th>レベル</th>
+			<th>必要なXP</th>
+			<th>全部XP</th>
+			<th>新規物</th>
+			<th>賞罰</th>
 		</tr>
 
 		<?php 

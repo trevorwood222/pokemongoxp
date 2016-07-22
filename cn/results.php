@@ -37,8 +37,8 @@ if($current_level >= $levels_count){
 <body>
 
 	<div class="results_main_header">
-		<a style="float:left;" href="/">Back to calculator</a>
-		<a style="float:right;" href="/rawdata">Raw Data</a>
+		<a style="float:left;" href="/cn/">Back to calculator</a>
+		<a style="float:right;" href="/cn/rawdata">Raw Data</a>
 		<div style="clear:both;"></div>
 		<?php echo "<p>A level <b>$current_level</b>, with <b>$current_xp</b> XP, earning <b>$xp_earned</b> XP per 5 minutes would take this long per level.</p>";?>
 	</div>

@@ -5,18 +5,12 @@ $xp_earned 				=	intval($_GET['xpe']);
 
 // check if all values are set
 if($current_level == "" || $current_xp < 0 || $xp_earned == ""){
-	echo '<p>Hmm, looks like you forgot to type in something. Try filling out the form again.</p><a href="/">Back</a>';
+	echo '<p>うんと、何かを打ち忘れましたか？ もう一回確認しててください。</p><a href="/">戻る</a>';
 	exit();
 }
 
 include_once($_SERVER["DOCUMENT_ROOT"] . "/levels.php");
-
-// make sure we have data for this user
 $levels_count = count($levels)-1;
-if($current_level >= $levels_count){
-	echo "<p>Wow there, you're a high level pokemon trainer. Unfortunately we only have data for levels up to $levels_count</p><a href=\"/\">Back</a>";
-	exit();
-}
 
 
 ?>
@@ -25,7 +19,7 @@ if($current_level >= $levels_count){
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Pokemon GO XP Calculator Results</title>
+	<title>Pokemon GO XP計算機の結果</title>
 
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
@@ -37,15 +31,15 @@ if($current_level >= $levels_count){
 <body>
 
 	<div class="results_main_header">
-		<a style="float:left;" href="/">Back to calculator</a>
-		<a style="float:right;" href="/rawdata">Raw Data</a>
+		<a style="float:left;" href="/jp">計算機に戻る</a>
+		<a style="float:right;" href="/jp/rawdata">レベル情報を見る</a>
 		<div style="clear:both;"></div>
-		<?php echo "<p>A level <b>$current_level</b>, with <b>$current_xp</b> XP, earning <b>$xp_earned</b> XP per 5 minutes would take this long per level.</p>";?>
+		<?php echo "<p><b>$current_level</b> レベルで, <b>$current_xp</b> XPは, 5分ごとに <b>$xp_earned</b> をもらっているのならこれぐらいかかります.</p>";?>
 	</div>
 
 	<div class="results_ul_header">
 		<div class="first">Lvl</div>
-		<div class="second">Time to reach level</div> 
+		<div class="second">レベルアップ時間</div> 
 		<div style="clear:both;"></div>
 	</div>
 
@@ -90,18 +84,16 @@ if($current_level >= $levels_count){
 
 		// add text to hours & minutes
 		if($hours == 0){$hours = "";
-		}elseif($hours > 1){$hours = $hours." hours ";
-		}else{$hours = $hours." hour ";}
+		}else($hours > 1){$hours = $hours."時間 ";}
 		if($minutes == 0){$minutes = "";
-		}elseif($minutes > 1){$minutes = $minutes." minutes";
-		}else{$minutes = $minutes." minute";}
+		}else($minutes > 1){$minutes = $minutes."分";}
 
 		// display results
 		echo 
 		'<li>
 			<div class="first">'.$a_level.'</div>
 			<div class="second">'.$hours.$minutes.'</div>
-			<div class="three highlightoff"><div class="redButton small">Rewards</div></div>
+			<div class="three highlightoff"><div class="redButton small">賞罰</div></div>
 			<div style="clear:both;"></div>
 			<div class="rewards" style="display:none;">'.$rewards.'</div>
 		</li>';
