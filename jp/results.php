@@ -34,7 +34,7 @@ $levels_count = count($levels)-1;
 		<a style="float:left;" href="/jp">計算機に戻る</a>
 		<a style="float:right;" href="/jp/rawdata">レベル情報を見る</a>
 		<div style="clear:both;"></div>
-		<?php echo "<p><b>$current_level</b> レベルで, <b>$current_xp</b> XPは, 5分ごとに <b>$xp_earned</b> をもらっているのならこれぐらいかかります.</p>";?>
+		<?php echo "<p><b>$current_level</b> レベルで, <b>$current_xp</b> XPは, 5分ごとに <b>$xp_earned</b>XP をもらっているのならこれぐらいかかります.</p>";?>
 	</div>
 
 	<div class="results_ul_header">
@@ -84,9 +84,9 @@ $levels_count = count($levels)-1;
 
 		// add text to hours & minutes
 		if($hours == 0){$hours = "";
-		}else($hours > 1){$hours = $hours."時間 ";}
+		}else{$hours = $hours."時間 ";}
 		if($minutes == 0){$minutes = "";
-		}else($minutes > 1){$minutes = $minutes."分";}
+		}else{$minutes = $minutes."分";}
 
 		// display results
 		echo 

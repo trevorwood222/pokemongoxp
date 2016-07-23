@@ -28,7 +28,7 @@
 				<label for="cxp">Current XP amount</label>
 				<input type="number" id="cxp" name="cxp" value="100" min="1" max="1500000">
 
-				<label for="xpe">About how much XP are you earning every <b>5 minutes<b>?</label>
+				<label for="xpe">About how much XP are you earning every <b>5 minutes</b>?</label>
 				<input type="number" name="xpe" id="xpe" value="250" min="50" max="150000">
 					
 				<input type="submit" value="Calculate!" class="redButton big">

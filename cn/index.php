@@ -28,7 +28,7 @@
 				<label for="cxp">目前XP</label>
 				<input type="number" id="cxp" name="cxp" value="100" min="1" max="1500000">
 
-				<label for="xpe">每<b>5分钟<b>大约能获得多少XP?</label>
+				<label for="xpe">每<b>5分钟</b>大约能获得多少XP?</label>
 				<input type="number" name="xpe" id="xpe" value="250" min="50" max="150000">
 					
 				<input type="submit" value="计算!" class="redButton big">

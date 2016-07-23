@@ -13,8 +13,8 @@
 
 	<div style="padding:15px;">
 		<h1>Pokemon Go レベル情報</h1>
-		<a href="/">計算機に戻る</a>
-		<p>: <?php echo $last_level_update;?></p>
+		<a href="/jp/">計算機に戻る</a>
+		<p>最終更新日: <?php echo $last_level_update;?></p>
 	</div>
 	<table class="rawdata_table">
 

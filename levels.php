@@ -1,6 +1,6 @@
 <?php
 
-$last_level_update = "July 17, 2016 8:58 am central";
+$last_level_update = "July 23, 2016 11:04 am central";
 
 $levels = array();
 

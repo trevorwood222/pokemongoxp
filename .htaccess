@@ -4,3 +4,14 @@ RewriteEngine On
 RewriteRule ^index$ index.php [L]
 RewriteRule ^results$ results.php [L]
 RewriteRule ^rawdata$ rawdata.php [L]
+
+
+RewriteRule ^jp/index$ jp/index.php [L]
+RewriteRule ^jp/results$ jp/results.php [L]
+RewriteRule ^jp/rawdata$ jp/rawdata.php [L]
+
+
+RewriteRule ^cn/index$ cn/index.php [L]
+RewriteRule ^cn/results$ cn/results.php [L]
+RewriteRule ^cn/rawdata$ cn/rawdata.php [L]
+
