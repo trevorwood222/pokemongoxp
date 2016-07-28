@@ -10,10 +10,11 @@ include($_SERVER["DOCUMENT_ROOT"] . "/inc/levels.php");
 
 if($current_level == "" || $current_xp < 0 || $xp_earned == ""){
 	echo '<p>'.$lg['error1'].'</p><a href="/">'.$lg['back'].'</a>';
+	include($_SERVER["DOCUMENT_ROOT"] . "/inc/footer.php");
 	exit();
 }
 
-include($_SERVER["DOCUMENT_ROOT"] . "/inc/footer.php");
+
 
 ?>
 
