@@ -1,0 +1,9 @@
+Options -MultiViews
+RewriteEngine On
+
+RewriteRule ^index$ index.php [NC,L,B,QSA]
+RewriteRule ^results$ results.php [NC,L,B,QSA]
+RewriteRule ^rawdata$ rawdata.php [NC,L,B,QSA]
+
+
+
