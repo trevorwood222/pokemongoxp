@@ -15,7 +15,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/inc/header.php");
 	<div class="form_div">
 		<form action="/results" method="get">
 			<label for="clvl"><?php echo $lg['curlvl'];?></label>
-			<input type="number" id="clvl" name="clvl" value="1" min="1" max="1000">
+			<input type="number" id="clvl" name="clvl" value="1" min="1" max="40">
 
 			<label for="cxp"><?php echo $lg['curxp'];?></label>
 			<input type="number" id="cxp" name="cxp" value="100" min="1" max="1500000">
