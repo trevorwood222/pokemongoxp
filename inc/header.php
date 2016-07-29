@@ -2,7 +2,7 @@
 // all ready and available languages
 $available_languages = [
 	"en" => "English",
-	// "zh" => "中文", //chinese
+	"zh" => "中文", //chinese
 	"ja" => "日本語" //japanese
 ];
 
