@@ -60,7 +60,7 @@ switch ($set_lg) {
 	<meta name="description" <?php echo 'content="'.$lg['desc'].'"';?>>
 	<meta name="keywords" <?php echo 'content="'.$lg['keywords'].'"';?>>
 
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 
 
