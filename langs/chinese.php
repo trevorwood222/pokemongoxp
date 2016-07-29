@@ -3,7 +3,7 @@
 $lg = [
 	//header info
 	"lang" => "zh",
-	"desc" => "Pokemon Go XP计算器, Find out how long it will be until you reach your next trainer level and see what rewards await you!",
+	"desc" => "Pokemon Go XP计算器, 查看需要升级的经验和获得的奖励!",
 	"keywords" => "Pokemon Go, XP计算器",
 
 	//index page
@@ -17,37 +17,37 @@ $lg = [
 
 	//results
 
-	"error1" => "Hmm, looks like you forgot to type in something. Try filling out the form again.",
-	"back" => "Back",
-	'back2' => "Back to Calculator",
-	'rawdata' => "Raw Data",
+	"error1" => "是不是忘记了什么?",
+	"back" => "返回",
+	'back2' => "返回计算器",
+	'rawdata' => "原始数据",
 
-	'main1' => "<p>A level <b>$current_level</b>, with <b>$current_xp</b> XP, earning <b>$xp_earned</b> XP per 5 minutes would take this long per level.</p>",
-
-
-	'lvl' => "lvl",
-	'time_to_reach_level' => "Time to reach level",
+	'main1' => "<p><b>$current_level</b>级, <b>$current_xp</b> XP, 每5分钟获得<b>$xp_earned</b>的话, 需要升级的时间是</p>",
 
 
-	'hours' => 'hours',
-	'hour' => 'hour',
-	'minutes' => 'minutes',
-	'minute' => 'minute',
+	'lvl' => "等级",
+	'time_to_reach_level' => "升级需要的时间",
 
-	'rewards' => "Rewards",
+
+	'hours' => '小时',
+	'hour' => '小时',
+	'minutes' => '分',
+	'minute' => '分',
+
+	'rewards' => "奖励",
 
 	//rawdata
 
-	"rawdataforpokemongo" => "Raw Data for Pokemon Go",
-	'back3' => "Back to Calculator",
-	'lastupdated' => "Last Updated",
+	"rawdataforpokemongo" => "Pokemon Go的原始数据",
+	'back3' => "返回计算器",
+	'lastupdated' => "最后更新",
 
 
-	"level" => "Level",
-	"xp_req" => "XP Required",
-	"total_xp_req" => "Total XP",
-	"unlocked_items" => "Unlocked Items",
-	"rewards" => "Rewards",
+	"level" => "等级",
+	"xp_req" => "需要XP",
+	"total_xp_req" => "总计XP",
+	"unlocked_items" => "解锁物品",
+	"rewards" => "奖励",
 ];
 
 ?>
