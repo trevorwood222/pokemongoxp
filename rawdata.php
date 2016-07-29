@@ -13,7 +13,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/inc/levels.php");
 	<tr>
 		<th><?php echo $lg['level']; ?></th>
 		<th><?php echo $lg['xp_req']; ?></th>
-		<th><?php echo $lg['total_xp']; ?></th>
+		<th><?php echo $lg['total_xp_req']; ?></th>
 		<th><?php echo $lg['unlocked_items']; ?></th>
 		<th><?php echo $lg['rewards']; ?></th>
 	</tr>

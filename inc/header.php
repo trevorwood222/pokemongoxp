@@ -1,7 +1,9 @@
 <?php 
 // all ready and available languages
 $available_languages = [
+	"de" => "Deutsch",
 	"en" => "English",
+	"es" => "Español",
 	"zh" => "中文", //chinese
 	"ja" => "日本語" //japanese
 ];
@@ -37,6 +39,8 @@ if(!isset($set_lg)){
 
 // get language pack
 switch ($set_lg) {
+	case 'de': include($_SERVER["DOCUMENT_ROOT"] . "/langs/german.php"); break;
+	case 'es': include($_SERVER["DOCUMENT_ROOT"] . "/langs/spanish.php"); break;
 	case 'zh': include($_SERVER["DOCUMENT_ROOT"] . "/langs/chinese.php"); break;
 	case 'ja': include($_SERVER["DOCUMENT_ROOT"] . "/langs/japanese.php"); break;
 	default: include($_SERVER["DOCUMENT_ROOT"] . "/langs/english.php"); break;

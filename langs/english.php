@@ -10,7 +10,7 @@ $lg = [
 	//index page
 	"header" => "XP Calculator",
 	"curlvl" => "Current Level",
-	"curxp" => "Current XP amount",
+	"curxp" => "Current XP Amount",
 	"xpe" => "About how much XP are you earning every <b>5 minutes</b>?",
 	"calculate" => "Calculate!",
 
