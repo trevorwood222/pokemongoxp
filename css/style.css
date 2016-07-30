@@ -13,6 +13,9 @@
 	-ms-user-select: none;
 	user-select: none;
 }
+body{
+	background-color: rgba(235,235,235,1);
+}
 
 a{
 	color:rgba(0,0,255,1);
@@ -52,7 +55,7 @@ input{
 .header .pokemongoLogo{
 	height: inherit; 
 	width: inherit;
-	background-image: url(img/pokemon-go-logo.jpg);
+	background-image: url(img/pokemon-go-logo-transparent.png);
 	background-size:contain;
 	background-repeat: no-repeat;
 }
