@@ -13,9 +13,7 @@
 	-ms-user-select: none;
 	user-select: none;
 }
-body{
-	background-color: rgba(235,235,235,1);
-}
+body{ background-color: rgba(235,235,235,1); }
 
 a{
 	color:rgba(0,0,255,1);
@@ -167,6 +165,10 @@ label{
 	position: relative;
 	border: 1px solid rgba(34,34,36,1);
 	border-width: 1px 0px;
+	background-color: rgba(238,21,21,1);
+}
+.results_ul_header .first,.results_ul_header .second{
+	color: #FFF;
 }
 
 
@@ -175,11 +177,14 @@ label{
 }
 
 .results_ul li{
+	background-color: #FFF;
 	position: relative;
 	border: 1px solid rgba(34,34,36,1);
 	border-width: 0px 0px 1px 0px;
 	overflow: hidden;
 }
+
+
 
 .results_ul_header .first,.results_ul li .first{
 	border: 1px solid rgba(34,34,36,1);
