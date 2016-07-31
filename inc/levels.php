@@ -1,6 +1,6 @@
 <?php
 
-$last_level_update = "July 27, 2016 3:03 pm central";
+$last_level_update = "July 31, 2016 9:57 am central";
 
 $levels = array();
 
@@ -313,7 +313,7 @@ $levels[38] = array(
 	'xp_req' 						=> 2500000,
 	'total_xp_req' 			=> 12000000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "???"
+	'rewards'						=> "Ultra Ball x20, Max Potion x20, Max Revive x10, Razz Berry x20"
 	);
 
 $levels[39] = array(
@@ -321,7 +321,7 @@ $levels[39] = array(
 	'xp_req' 						=> 3000000,
 	'total_xp_req' 			=> 15000000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "???"
+	'rewards'						=> "Ultra Ball x20, Max Potion x20, Max Revive x10, Razz Berry x20"
 	);
 
 $levels[40] = array(
