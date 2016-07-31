@@ -11,7 +11,7 @@ $lg = [
 	"header" => "XP Calculadora",
 	"curlvl" => "Nivel Actual",
 	"curxp" => "Cantidad Actual XP",
-	"xpe" => "<b>Acerca de la cantidad de XP que está ganando cada 5 minutos</b>?",
+	"xpe" => "Acerca de la cantidad de XP que está ganando cada <b>5 minutos</b>?",
 	"calculate" => "Calcular!",
 
 	"language" => "Idioma",
@@ -76,8 +76,6 @@ $lg = [
 	
 	"luckyegg" => "Huevo Suerte",
 	
-
-
 
 ];
 
