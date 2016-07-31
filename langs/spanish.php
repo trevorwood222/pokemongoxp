@@ -48,6 +48,37 @@ $lg = [
 	"total_xp_req" => "Total XP",
 	"unlocked_items" => "Los productos desbloqueados",
 	"rewards" => "Recompensas",
+
+
+	// levels
+
+	"gym" => "Gimnasio",
+
+	"pokeball" => "Pokéball",
+	"greatball" => "Super Ball",
+	"ultraball" => "Ultra Ball",
+
+	"razzberry" => "Razz Berry",
+
+	"potion" => "Poción",
+	"superpotion" => "Superpoción",
+	"hyperpotion" => "Hiperpoción",
+	"maxpotion" => "Maxpoción",
+
+	"revive" => "Revivir",
+	"maxrevive" => "Max Revivir",
+
+	"incense" => "Incienso",
+	"luremodule" => "Módulo Cebo",
+
+	"incubator" => "Incubadora", // unlimited
+	"eggincubator" => "Egg Incubadora", //limited one
+	
+	"luckyegg" => "Huevo Suerte",
+	
+
+
+
 ];
 
 ?>

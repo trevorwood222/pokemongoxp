@@ -17,7 +17,7 @@ $levels[1] = array(
 	'xp_req' 						=> 0,
 	'total_xp_req' 			=> 0,
 	'unlocked_items'  	=> "",
-	'rewards'						=> ""
+	'rewards'						=> "",
 	);
 
 $levels[2] = array(
@@ -25,7 +25,7 @@ $levels[2] = array(
 	'xp_req' 						=> 1000,
 	'total_xp_req' 			=> 1000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Poke Ball x10"
+	'rewards'						=> $lg['pokeball']." x10"
 	);
 
 $levels[3] = array(
@@ -33,7 +33,7 @@ $levels[3] = array(
 	'xp_req' 						=> 2000,
 	'total_xp_req' 			=> 3000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Poke Ball x15"
+	'rewards'						=> $lg['pokeball']." x15"
 	);
 
 $levels[4] = array(
@@ -41,15 +41,15 @@ $levels[4] = array(
 	'xp_req' 						=> 3000,
 	'total_xp_req' 			=> 6000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Poke Ball x15"
+	'rewards'						=> $lg['pokeball']." x15"
 	);
 
 $levels[5] = array(
 	'level'							=> 5,
 	'xp_req' 						=> 4000,
 	'total_xp_req' 			=> 10000,
-	'unlocked_items'  	=> "Gyms, Potions, Revives",
-	'rewards'						=> "Poke Ball x20, Potion x10, Revive x10, Incense"
+	'unlocked_items'  	=> $lg['gym'].", ".$lg['potion'].", ".$lg['revive'],
+	'rewards'						=> $lg['pokeball']." x20, ".$lg['potion']." x10, ".$lg['revive']." x10, ".$lg['incense']." x1"
 	);
 
 $levels[6] = array(
@@ -57,7 +57,7 @@ $levels[6] = array(
 	'xp_req' 						=> 5000,
 	'total_xp_req' 			=> 15000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Poke Ball x15, Potion x10, Revive x5, Incubator"
+	'rewards'						=> $lg['pokeball']." x15, ".$lg['potion']." x10, ".$lg['revive']." x5, ".$lg['incubator']." x1"
 	);
 
 $levels[7] = array(
@@ -65,15 +65,15 @@ $levels[7] = array(
 	'xp_req' 						=> 6000,
 	'total_xp_req' 			=> 21000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Poke Ball x15, Potion x10, Revive x5, Incense"
+	'rewards'						=> $lg['pokeball']." x15, ".$lg['potion']." x10, ".$lg['revive']." x5, ".$lg['incense']." x1"
 	);
 
 $levels[8] = array(
 	'level'							=> 8,
 	'xp_req' 						=> 7000,
 	'total_xp_req' 			=> 28000,
-	'unlocked_items'  	=> "Razz Berry",
-	'rewards'						=> "Poke Ball x15, Potion x10, Revive x5, Razz Berry x10, Lure Module"
+	'unlocked_items'  	=> $lg['razzberry'],
+	'rewards'						=> $lg['pokeball']." x15, ".$lg['potion']." x10, ".$lg['revive']." x5, ".$lg['razzberry']." x10, ".$lg['luremodule']." x1"
 	);
 
 $levels[9] = array(
@@ -81,15 +81,15 @@ $levels[9] = array(
 	'xp_req' 						=> 8000,
 	'total_xp_req' 			=> 36000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Poke Ball x15, Potion x10, Revive x5, Razz Berry x3, Lucky Egg"
+	'rewards'						=> $lg['pokeball']." x15, ".$lg['potion']." x10, ".$lg['revive']." x5, ".$lg['razzberry']." x3, ".$lg['luckyegg']." x1"
 	);
 
 $levels[10] = array(
 	'level'							=> 10,
 	'xp_req' 						=> 9000,
 	'total_xp_req' 			=> 45000,
-	'unlocked_items'  	=> "Super Potions",
-	'rewards'						=> "Poke Ball x20, Super Potion x20, Revive x10, Razz Berry x10, Incense, Lucky Egg, Egg Incubator, Lure Module"
+	'unlocked_items'  	=> $lg['superpotion'],
+	'rewards'						=> $lg['pokeball']." x20, ".$lg['superpotion']." x20, ".$lg['revive']." x10, ".$lg['razzberry']." x10, ".$lg['incense']." x1, ".$lg['luckyegg']." x1, ".$lg['eggincubator']." x1, ".$lg['luremodule']." x1"
 	);
 
 $levels[11] = array(
@@ -97,15 +97,15 @@ $levels[11] = array(
 	'xp_req' 						=> 10000,
 	'total_xp_req' 			=> 55000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Poke Ball x15, Super Potion x10, Revive x3, Razz Berry x3"
+	'rewards'						=> $lg['pokeball']." x15, ".$lg['superpotion']." x10, ".$lg['revive']." x3, ".$lg['razzberry']." x3"
 	);
 
 $levels[12] = array(
 	'level'							=> 12,
 	'xp_req' 						=> 10000,
 	'total_xp_req' 			=> 65000,
-	'unlocked_items'  	=> "Great Balls",
-	'rewards'						=> "Great Ball x20, Super Potion x10, Revive x3, Razz Berry x3"
+	'unlocked_items'  	=> $lg['greatball'],
+	'rewards'						=> $lg['greatball']." x20, ".$lg['superpotion']." x10, ".$lg['revive']." x3, ".$lg['razzberry']." x3"
 	);
 
 $levels[13] = array(
@@ -113,7 +113,7 @@ $levels[13] = array(
 	'xp_req' 						=> 10000,
 	'total_xp_req' 			=> 75000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Great Ball x10, Super Potion x10, Revive x3, Razz Berry x3"
+	'rewards'						=> $lg['greatball']." x10, ".$lg['superpotion']." x10, ".$lg['revive']." x3, ".$lg['razzberry']." x3"
 	);
 
 $levels[14] = array(
@@ -121,15 +121,15 @@ $levels[14] = array(
 	'xp_req' 						=> 10000,
 	'total_xp_req' 			=> 85000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Great Ball x10, Super Potion x10, Revive x3, Razz Berry x3"
+	'rewards'						=> $lg['greatball']." x10, ".$lg['superpotion']." x10, ".$lg['revive']." x3, ".$lg['razzberry']." x3"
 	);
 
 $levels[15] = array(
 	'level'							=> 15,
 	'xp_req' 						=> 15000,
 	'total_xp_req' 			=> 100000,
-	'unlocked_items'  	=> "Hyper Potions",
-	'rewards'						=> "Great Ball x15, Hyper Potion x20, Revive x10, Razz Berry x10, Incense, Lucky Egg, Egg Incubator, Lure Module"
+	'unlocked_items'  	=> $lg['hyperpotion'],
+	'rewards'						=> $lg['greatball']." x15, ".$lg['hyperpotion']." x20, ".$lg['revive']." x10, ".$lg['razzberry']." x10, ".$lg['incense']." x1, ".$lg['luckyegg']." x1, ".$lg['eggincubator']." x1, ".$lg['luremodule']." x1"
 	);
 
 $levels[16] = array(
@@ -137,7 +137,7 @@ $levels[16] = array(
 	'xp_req' 						=> 20000,
 	'total_xp_req' 			=> 120000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Great Ball x10, Hyper Potion x10, Revive x5, Razz Berry x5"
+	'rewards'						=> $lg['greatball']." x10, ".$lg['hyperpotion']." x10, ".$lg['revive']." x5, ".$lg['razzberry']." x5"
 	);
 
 $levels[17] = array(
@@ -145,7 +145,7 @@ $levels[17] = array(
 	'xp_req' 						=> 20000,
 	'total_xp_req' 			=> 140000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Great Ball x10, Hyper Potion x10, Revive x5, Razz Berry x5"
+	'rewards'						=> $lg['greatball']." x10, ".$lg['hyperpotion']." x10, ".$lg['revive']." x5, ".$lg['razzberry']." x5"
 	);
 
 $levels[18] = array(
@@ -153,7 +153,7 @@ $levels[18] = array(
 	'xp_req' 						=> 20000,
 	'total_xp_req' 			=> 160000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Great Ball x10, Hyper Potion x10, Revive x5, Razz Berry x5"
+	'rewards'						=> $lg['greatball']." x10, ".$lg['hyperpotion']." x10, ".$lg['revive']." x5, ".$lg['razzberry']." x5"
 	);
 
 $levels[19] = array(
@@ -161,15 +161,15 @@ $levels[19] = array(
 	'xp_req' 						=> 25000,
 	'total_xp_req' 			=> 185000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Great Ball x15, Hyper Potion x10, Revive x5, Razz Berry x5"
+	'rewards'						=> $lg['greatball']." x10, ".$lg['hyperpotion']." x10, ".$lg['revive']." x5, ".$lg['razzberry']." x5"
 	);
 
 $levels[20] = array(
 	'level'							=> 20,
 	'xp_req' 						=> 25000,
 	'total_xp_req' 			=> 210000,
-	'unlocked_items'  	=> "Ultra Balls",
-	'rewards'						=> "Ultra Ball x20, Hyper Potion x20, Revive x20, Razz Berry x20, Incense x2, Lucky Egg x2, Egg Incubator x2, Lure Module x2"
+	'unlocked_items'  	=> $lg['ultraball'],
+	'rewards'						=> $lg['ultraball']." x20, ".$lg['hyperpotion']." x20, ".$lg['revive']." x20, ".$lg['razzberry']." x20, ".$lg['incense']." x2, ".$lg['luckyegg']." x2, ".$lg['eggincubator']." x2, ".$lg['luremodule']." x2"
 	);
 
 $levels[21] = array(
@@ -177,7 +177,7 @@ $levels[21] = array(
 	'xp_req' 						=> 50000,
 	'total_xp_req' 			=> 260000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x10, Hyper Potion x10, Revive x10, Razz Berry x10"
+	'rewards'						=> $lg['ultraball']." x10, ".$lg['hyperpotion']." x10, ".$lg['revive']." x10, ".$lg['razzberry']." x10"
 	);
 
 $levels[22] = array(
@@ -185,7 +185,7 @@ $levels[22] = array(
 	'xp_req' 						=> 75000,
 	'total_xp_req' 			=> 335000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x10, Hyper Potion x10, Revive x10, Razz Berry x10"
+	'rewards'						=> $lg['ultraball']." x10, ".$lg['hyperpotion']." x10, ".$lg['revive']." x10, ".$lg['razzberry']." x10"
 	);
 
 $levels[23] = array(
@@ -193,7 +193,7 @@ $levels[23] = array(
 	'xp_req' 						=> 100000,
 	'total_xp_req' 			=> 435000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x10, Hyper Potion x10, Revive x10, Razz Berry x10"
+	'rewards'						=> $lg['ultraball']." x10, ".$lg['hyperpotion']." x10, ".$lg['revive']." x10, ".$lg['razzberry']." x10"
 	);
 
 $levels[24] = array(
@@ -201,15 +201,15 @@ $levels[24] = array(
 	'xp_req' 						=> 125000,
 	'total_xp_req' 			=> 560000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x15, Hyper Potion x10, Revive x10, Razz Berry x10"
+	'rewards'						=> $lg['ultraball']." x10, ".$lg['hyperpotion']." x10, ".$lg['revive']." x10, ".$lg['razzberry']." x10"
 	);
 
 $levels[25] = array(
 	'level'							=> 25,
 	'xp_req' 						=> 150000,
 	'total_xp_req' 			=> 710000,
-	'unlocked_items'  	=> "Max Potions",
-	'rewards'						=> "Ultra Ball x25, Max Potion x20, Revive x15, Razz Berry x15, Incense, Lucky Egg, Egg Incubator, Lure Module"
+	'unlocked_items'  	=> $lg['maxpotion'],
+	'rewards'						=> $lg['ultraball']." x25, ".$lg['maxpotion']." x20, ".$lg['revive']." x15, ".$lg['razzberry']." x15, ".$lg['incense']." x1, ".$lg['luckyegg']." x1, ".$lg['eggincubator']." x1, ".$lg['luremodule']." x1"
 	);
 
 $levels[26] = array(
@@ -217,7 +217,7 @@ $levels[26] = array(
 	'xp_req' 						=> 190000,
 	'total_xp_req' 			=> 900000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x10, Max Potion x15, Revive x10, Razz Berry x15"
+	'rewards'						=> $lg['ultraball']." x10, ".$lg['maxpotion']." x15, ".$lg['revive']." x10, ".$lg['razzberry']." x15"
 	);
 
 $levels[27] = array(
@@ -225,7 +225,7 @@ $levels[27] = array(
 	'xp_req' 						=> 200000,
 	'total_xp_req' 			=> 1100000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x10, Max Potion x15, Revive x10, Razz Berry x15"
+	'rewards'						=> $lg['ultraball']." x10, ".$lg['maxpotion']." x15, ".$lg['revive']." x10, ".$lg['razzberry']." x15"
 	);
 
 $levels[28] = array(
@@ -233,7 +233,7 @@ $levels[28] = array(
 	'xp_req' 						=> 250000,
 	'total_xp_req' 			=> 1350000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x10, Max Potion x15, Revive x10, Razz Berry x15"
+	'rewards'						=> $lg['ultraball']." x10, ".$lg['maxpotion']." x15, ".$lg['revive']." x10, ".$lg['razzberry']." x15"
 	);
 
 $levels[29] = array(
@@ -241,15 +241,15 @@ $levels[29] = array(
 	'xp_req' 						=> 300000,
 	'total_xp_req' 			=> 1650000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x10, Max Potion x15, Revive x10, Razz Berry x15"
+	'rewards'						=> $lg['ultraball']." x10, ".$lg['maxpotion']." x15, ".$lg['revive']." x10, ".$lg['razzberry']." x15"
 	);
 
 $levels[30] = array(
 	'level'							=> 30,
 	'xp_req' 						=> 350000,
 	'total_xp_req' 			=> 2000000,
-	'unlocked_items'  	=> "Max Revive",
-	'rewards'						=> "Ultra Ball x30, Max Potion x20, Max Revive x20, Razz Berry x20, Incense x3, Lucky Egg x3, Egg Incubator x3, Lure Module x3"
+	'unlocked_items'  	=> $lg['maxrevive'],
+	'rewards'						=> $lg['ultraball']." x30, ".$lg['maxpotion']." x20, ".$lg['maxrevive']." x20, ".$lg['razzberry']." x20, ".$lg['incense']." x3, ".$lg['luckyegg']." x3, ".$lg['eggincubator']." x3, ".$lg['luremodule']." x3"
 	);
 
 $levels[31] = array(
@@ -257,7 +257,7 @@ $levels[31] = array(
 	'xp_req' 						=> 500000,
 	'total_xp_req' 			=> 2500000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x10, Max Potion x15, Max Revive x10, Razz Berry x15"
+	'rewards'						=> $lg['ultraball']." x10, ".$lg['maxpotion']." x15, ".$lg['maxrevive']." x10, ".$lg['razzberry']." x15"
 	);
 
 $levels[32] = array(
@@ -265,7 +265,7 @@ $levels[32] = array(
 	'xp_req' 						=> 250000,
 	'total_xp_req' 			=> 3000000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x10, Max Potion x15, Max Revive x10, Razz Berry x15"
+	'rewards'						=> $lg['ultraball']." x10, ".$lg['maxpotion']." x15, ".$lg['maxrevive']." x10, ".$lg['razzberry']." x15"
 	);
 
 $levels[33] = array(
@@ -273,7 +273,7 @@ $levels[33] = array(
 	'xp_req' 						=> 750000,
 	'total_xp_req' 			=> 3750000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x10, Max Potion x15, Max Revive x10, Razz Berry x15"
+	'rewards'						=> $lg['ultraball']." x10, ".$lg['maxpotion']." x15, ".$lg['maxrevive']." x10, ".$lg['razzberry']." x15"
 	);
 
 $levels[34] = array(
@@ -281,7 +281,7 @@ $levels[34] = array(
 	'xp_req' 						=> 1000000,
 	'total_xp_req' 			=> 4750000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x10, Max Potion x15, Max Revive x10, Razz Berry x15"
+	'rewards'						=> $lg['ultraball']." x10, ".$lg['maxpotion']." x15, ".$lg['maxrevive']." x10, ".$lg['razzberry']." x15"
 	);
 
 $levels[35] = array(
@@ -289,7 +289,7 @@ $levels[35] = array(
 	'xp_req' 						=> 1250000,
 	'total_xp_req' 			=> 6000000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x30, Max Potion x20, Max Revive x20, Razz Berry x20, Incense x2, Lucky Egg x1, Lure Module x1"
+	'rewards'						=> $lg['ultraball']." x30, ".$lg['maxpotion']." x20, ".$lg['maxrevive']." x20, ".$lg['razzberry']." x20, ".$lg['incense']." x2, ".$lg['luckyegg']." x1, ".$lg['luremodule']." x1"
 	);
 
 $levels[36] = array(
@@ -297,7 +297,7 @@ $levels[36] = array(
 	'xp_req' 						=> 1500000,
 	'total_xp_req' 			=> 7500000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x20, Max Potion x20, Max Revive x10, Razz Berry x20"
+	'rewards'						=> $lg['ultraball']." x20, ".$lg['maxpotion']." x20, ".$lg['maxrevive']." x10, ".$lg['razzberry']." x20"
 	);
 
 $levels[37] = array(
@@ -305,7 +305,7 @@ $levels[37] = array(
 	'xp_req' 						=> 2000000,
 	'total_xp_req' 			=> 9500000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x20, Max Potion x20, Max Revive x10, Razz Berry x20"
+	'rewards'						=> $lg['ultraball']." x20, ".$lg['maxpotion']." x20, ".$lg['maxrevive']." x10, ".$lg['razzberry']." x20"
 	);
 
 $levels[38] = array(
@@ -313,7 +313,7 @@ $levels[38] = array(
 	'xp_req' 						=> 2500000,
 	'total_xp_req' 			=> 12000000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x20, Max Potion x20, Max Revive x10, Razz Berry x20"
+	'rewards'						=> $lg['ultraball']." x20, ".$lg['maxpotion']." x20, ".$lg['maxrevive']." x10, ".$lg['razzberry']." x20"
 	);
 
 $levels[39] = array(
@@ -321,7 +321,7 @@ $levels[39] = array(
 	'xp_req' 						=> 3000000,
 	'total_xp_req' 			=> 15000000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x20, Max Potion x20, Max Revive x10, Razz Berry x20"
+	'rewards'						=> $lg['ultraball']." x20, ".$lg['maxpotion']." x20, ".$lg['maxrevive']." x10, ".$lg['razzberry']." x20"
 	);
 
 $levels[40] = array(
@@ -329,9 +329,7 @@ $levels[40] = array(
 	'xp_req' 						=> 5000000,
 	'total_xp_req' 			=> 20000000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> "Ultra Ball x40, Max Potion x40, Max Revive x40, Razz Berry x40, Incense x4, Lucky Egg x4, Egg Incubator x4, Lure Module x4"
+	'rewards'						=> $lg['ultraball']." x40, ".$lg['maxpotion']." x40, ".$lg['maxrevive']." x40, ".$lg['razzberry']." x40, ".$lg['incense']." x4, ".$lg['luckyegg']." x4, ".$lg['eggincubator']." x4, ".$lg['luremodule']." x4"
 	);
-
-
 
 ?>

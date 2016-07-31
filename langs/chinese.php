@@ -48,6 +48,36 @@ $lg = [
 	"total_xp_req" => "总计XP",
 	"unlocked_items" => "解锁物品",
 	"rewards" => "奖励",
+
+
+	// levels
+
+	"gym" => "Gym",
+
+	"pokeball" => "Pokéball",
+	"greatball" => "Great Ball",
+	"ultraball" => "Ultra Ball",
+
+	"razzberry" => "Razz Berry",
+
+	"potion" => "Potion",
+	"superpotion" => "Super Potion",
+	"hyperpotion" => "Hyper Potion",
+	"maxpotion" => "Max Potion",
+
+	"revive" => "Revive",
+	"maxrevive" => "Max Revive",
+
+	"incense" => "Incense",
+	"luremodule" => "Lure Module",
+
+	"incubator" => "Incubator", // unlimited
+	"eggincubator" => "Egg Incubator", //limited one
+	
+	"luckyegg" => "Lucky Egg",
+	
+
+
 ];
 
 ?>

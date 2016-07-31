@@ -49,6 +49,36 @@ $lg = [
 	"total_xp_req" => "Insgesamt XP",
 	"unlocked_items" => "Entriegeltes Artikel",
 	"rewards" => "Belohnungen",
+
+
+	// levels
+
+	"gym" => "Fitnessstudio",
+
+	"pokeball" => "Pokéball",
+	"greatball" => "Superball",
+	"ultraball" => "UltraBall",
+
+	"razzberry" => "Himmihbeere",
+
+	"potion" => "Trank",
+	"superpotion" => "Supertrank",
+	"hyperpotion" => "Hypertrank",
+	"maxpotion" => "Maxtrank",
+
+	"revive" => "Beleber",
+	"maxrevive" => "Maxbeleber",
+
+	"incense" => "Raunch",
+	"luremodule" => "Lockmodul",
+
+	"incubator" => "Ei-Brutmaschine", // unlimited
+	"eggincubator" => "Ei-Brutmaschine", //limited one
+	
+	"luckyegg" => "Glücks-ei",
+	
+
+
 ];
 
 ?>

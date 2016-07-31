@@ -48,6 +48,34 @@ $lg = [
 	"total_xp_req" => "全部XP",
 	"unlocked_items" => "新規物",
 	"rewards" => "賞罰",
+
+	// levels
+
+	"gym" => "ジム",
+
+	"pokeball" => "モンスターボール",
+	"greatball" => "スーパーボール",
+	"ultraball" => "ハイパーボール",
+
+	"razzberry" => "ズリのみ",
+
+	"potion" => "キズぐすり",
+	"superpotion" => "いいキズぐすり",
+	"hyperpotion" => "すごいキズぐすり",
+	"maxpotion" => "まんたんのくすり",
+
+	"revive" => "げんぎのかけら",
+	"maxrevive" => "げんきのかたまり",
+
+	"incense" => "おこう",
+	"luremodule" => "ルアーモジュール",
+
+	"incubator" => "ムゲンふかそうち", // unlimited
+	"eggincubator" => "ふかそうち", //limited one
+	
+	"luckyegg" => "しあわせタマゴ",
+
+
 ];
 
 ?>
