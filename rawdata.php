@@ -25,8 +25,8 @@ include($_SERVER["DOCUMENT_ROOT"] . "/inc/levels.php");
 		if($value['level'] == 0){continue;}
 		echo '<tr>';
 		echo '<td>'.$value['level'].'</td>';
-		echo '<td>'.$value['xp_req'].'</td>';
-		echo '<td>'.$value['total_xp_req'].'</td>';
+		echo '<td>'.number_format($value['xp_req']).'</td>';
+		echo '<td>'.number_format($value['total_xp_req']).'</td>';
 		echo '<td>'.$value['unlocked_items'].'</td>';
 		echo '<td>'.$value['rewards'].'</td>';
 		echo '</tr>';

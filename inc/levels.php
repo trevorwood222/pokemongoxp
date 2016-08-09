@@ -1,6 +1,6 @@
 <?php
 
-$last_level_update = "July 31, 2016 9:57 am central";
+$last_level_update = "Aug 7, 2016 5:25 pm central";
 
 $levels = array();
 
@@ -161,7 +161,7 @@ $levels[19] = array(
 	'xp_req' 						=> 25000,
 	'total_xp_req' 			=> 185000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> $lg['greatball']." x10, ".$lg['hyperpotion']." x10, ".$lg['revive']." x5, ".$lg['razzberry']." x5"
+	'rewards'						=> $lg['greatball']." x15, ".$lg['hyperpotion']." x10, ".$lg['revive']." x5, ".$lg['razzberry']." x5"
 	);
 
 $levels[20] = array(
@@ -201,7 +201,7 @@ $levels[24] = array(
 	'xp_req' 						=> 125000,
 	'total_xp_req' 			=> 560000,
 	'unlocked_items'  	=> "",
-	'rewards'						=> $lg['ultraball']." x10, ".$lg['hyperpotion']." x10, ".$lg['revive']." x10, ".$lg['razzberry']." x10"
+	'rewards'						=> $lg['ultraball']." x15, ".$lg['hyperpotion']." x10, ".$lg['revive']." x10, ".$lg['razzberry']." x10"
 	);
 
 $levels[25] = array(

@@ -26,7 +26,7 @@ $lg = [
 	'main1' => "<p> Eine Ebene <b> $current_level</b>, mit <b> $current_xp </b> XP , verdienen <b> $xp_earned </b> XP pro 5 Minuten würde dies pro Ebene lange dauern. </p>",
 
 
-	'lvl' => "Ebene",
+	'lvl' => "lvl",
 	'time_to_reach_level' => "Zeitebene zu erreichen",
 
 
@@ -57,7 +57,7 @@ $lg = [
 
 	"pokeball" => "Pokéball",
 	"greatball" => "Superball",
-	"ultraball" => "UltraBall",
+	"ultraball" => "HyperBall",
 
 	"razzberry" => "Himmihbeere",
 

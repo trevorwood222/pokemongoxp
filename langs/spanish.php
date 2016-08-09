@@ -25,7 +25,7 @@ $lg = [
 
 	'main1' => "<p>Un nivel <b>$current_level</b>, con <b>$current_xp</b> XP , ganando <b>$xp_earned</b> XP por 5 minutos tomaría tanto tiempo por nivel.</p>",
 
-	'lvl' => "Nivel",
+	'lvl' => "lvl",
 	'time_to_reach_level' => "Tiempo para alcanzar el nivel",
 
 
@@ -76,6 +76,8 @@ $lg = [
 	
 	"luckyegg" => "Huevo Suerte",
 	
+
+
 
 ];
 

@@ -5,16 +5,22 @@ $xp_earned 				=	intval($_GET['xpe']);
 
 // check if all values are set
 
-include($_SERVER["DOCUMENT_ROOT"] . "/inc/header.php");
-include($_SERVER["DOCUMENT_ROOT"] . "/inc/levels.php");
-
 if($current_level == "" || $current_xp < 0 || $xp_earned == ""){
+	include($_SERVER["DOCUMENT_ROOT"] . "/inc/header.php");
+	include($_SERVER["DOCUMENT_ROOT"] . "/inc/levels.php");
 	echo '<p>'.$lg['error1'].'</p><a href="/">'.$lg['back'].'</a>';
 	include($_SERVER["DOCUMENT_ROOT"] . "/inc/footer.php");
 	exit();
 }
 
+//set cookies
+setcookie("current_level", $current_level, time() + (86400 * 365), "/"); //
+setcookie("current_xp", $current_xp, time() + (86400 * 365), "/"); //
+setcookie("xp_earned", $xp_earned, time() + (86400 * 365), "/"); //
 
+
+include($_SERVER["DOCUMENT_ROOT"] . "/inc/header.php");
+include($_SERVER["DOCUMENT_ROOT"] . "/inc/levels.php");
 
 ?>
 
@@ -70,6 +76,7 @@ for ($i=$current_level+1; $i <= $levels_count; $i++) {
 		$hours = $hours+1;
 		$minutes = $minutes - 60;
 	}
+	$hours = number_format($hours);
 
 	// add text to hours & minutes
 	if($hours == 0){$hours = "";
