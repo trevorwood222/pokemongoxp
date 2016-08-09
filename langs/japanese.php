@@ -22,7 +22,7 @@ $lg = [
 	'back2' => "計算機に戻る",
 	'rawdata' => "レベル情報を見る",
 
-	'main1' => "<p>現在は<b>$current_level</b>レベルで, <b>$current_xp</b> XPです。 毎5分に<b>$xp_earned</b>XPをもらっているのなら次のレベルに進むはこれぐらい時間かかります.</p>",
+	'main1' => "<p>まず現在は<b>$current_level</b>レベルで, <b>$current_xp</b> XPとして考えます。 毎5分ごとに<b>$xp_earned</b>XPをもらっているのなら次のレベルに進む為にはこれぐらいの時間かかります.</p>",
 
 
 	'lvl' => "lvl",
@@ -34,7 +34,7 @@ $lg = [
 	'minutes' => '分',
 	'minute' => '分',
 
-	'rewards' => "賞罰",
+	'rewards' => "報酬",
 
 	//rawdata
 
@@ -47,7 +47,7 @@ $lg = [
 	"xp_req" => "必要なXP",
 	"total_xp_req" => "全部XP",
 	"unlocked_items" => "新規物",
-	"rewards" => "賞罰",
+	"rewards" => "報酬",
 
 	// levels
 
