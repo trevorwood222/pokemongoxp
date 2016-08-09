@@ -4,7 +4,8 @@ $lg = [
 	//header info
 	"lang" => "es",
 	"desc" => "Pokemon Go XP Calculadora, Averigüe cuánto tiempo pasará hasta que llegue a su siguiente nivel entrenador y ver qué recompensas te esperan!",
-	"keywords" => "Pokemon Go, XP Calculadora",
+	"keywords" => "Pokémon GO, Pokemon Go, XP Calculadora",
+
 
 
 	//index page
@@ -35,6 +36,8 @@ $lg = [
 	'minute' => 'minuto',
 
 	'rewards' => "Recompensas",
+
+	'twittermessage' => "Confirmar el tiempo que va a tomar para mí para subir de nivel en Pokémon GO !",
 
 	//rawdata
 

@@ -4,7 +4,7 @@ $lg = [
 	//header info
 	"lang" => "zh",
 	"desc" => "Pokemon Go XP计算器, 查看需要升级的经验和获得的奖励!",
-	"keywords" => "Pokemon Go, XP计算器",
+	"keywords" => "Pokémon GO, Pokemon Go, XP计算器",
 
 	//index page
 	"header" => "XP计算器",
@@ -35,6 +35,8 @@ $lg = [
 	'minute' => '分',
 
 	'rewards' => "奖励",
+
+	'twittermessage' => "Check out how long it'll take for me to level up in Pokémon GO!",
 
 	//rawdata
 

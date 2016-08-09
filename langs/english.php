@@ -3,8 +3,8 @@
 $lg = [
 	//header info
 	"lang" => "en",
-	"desc" => "Pokemon Go XP Calculator, Find out how long it will be until you reach your next trainer level and see what rewards await you!",
-	"keywords" => "Pokemon Go, XP Calculator",
+	"desc" => "Pokémon Go XP Calculator, Find out how long it will be until you reach your next trainer level and see what rewards await you!",
+	"keywords" => "Pokémon GO, Pokemon GO,XP Calculator",
 
 
 	//index page
@@ -37,9 +37,11 @@ $lg = [
 
 	'rewards' => "Rewards",
 
+	'twittermessage' => "Check out how long it'll take for me to level up in Pokémon GO!",
+
 	//rawdata
 
-	"rawdataforpokemongo" => "Raw Data for Pokemon Go",
+	"rawdataforpokemongo" => "Raw Data for Pokémon Go",
 	'back3' => "Back to Calculator",
 	'lastupdated' => "Last Updated",
 

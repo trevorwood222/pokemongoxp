@@ -4,7 +4,7 @@ $lg = [
 	//header info
 	"lang" => "ja",
 	"desc" => "Pokemon Go XP計算機, 次のレベルに進む時間を簡単にはかる！そのレベルの賞罰もわかる！",
-	"keywords" => "Pokemon Go, XP計算機",
+	"keywords" => "Pokémon GO, Pokemon GO, XP計算機",
 
 	//index page
 	"header" => "XP計算機",
@@ -35,6 +35,8 @@ $lg = [
 	'minute' => '分',
 
 	'rewards' => "報酬",
+
+	'twittermessage' => "しゅげー、見てみな Pokémon GO で次のレベルに進むはこらぐらいの時間かかるそう！",
 
 	//rawdata
 
