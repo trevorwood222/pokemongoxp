@@ -80,7 +80,7 @@ switch ($set_lg) {
 	<link rel="icon" type="image/png" href="/favicon/android-chrome-192x192.png" sizes="192x192">
 	<link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16">
 	<link rel="manifest" href="/favicon/manifest.json">
-	<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg">
 	<link rel="shortcut icon" href="/favicon/favicon.ico">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png">

@@ -1,9 +1,23 @@
 Options -MultiViews
 RewriteEngine On
 
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
 RewriteRule ^index$ index.php [NC,L,B,QSA]
 RewriteRule ^results$ results.php [NC,L,B,QSA]
 RewriteRule ^rawdata$ rawdata.php [NC,L,B,QSA]
+
+
+
+
+
+
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
+# END GZIP
 
 
 

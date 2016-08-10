@@ -10,7 +10,7 @@ $lg = [
 	"header" => "XP计算器",
 	"curlvl" => "目前等级",
 	"curxp" => "目前XP",
-	"xpe" => "每<b>5分钟</b>大约能获得多少XP?",
+	"xpe" => '每<span class="bold">5分钟</span>大约能获得多少XP?',
 	"calculate" => "计算!",
 
 	"language" => "语言",
@@ -22,7 +22,7 @@ $lg = [
 	'back2' => "返回计算器",
 	'rawdata' => "原始数据",
 
-	'main1' => "<p><b>$current_level</b>级, <b>$current_xp</b> XP, 每5分钟获得<b>$xp_earned</b>的话, 需要升级的时间是</p>",
+	'main1' => '<p><span class="bold">'.$current_level.'</span>级, <span class="bold">'.$current_xp.'</span> XP, 每5分钟获得<span class="bold">'.$xp_earned.'</span>的话, 需要升级的时间是</p>',
 
 
 	'lvl' => "等级",

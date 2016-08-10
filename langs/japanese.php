@@ -10,7 +10,7 @@ $lg = [
 	"header" => "XP計算機",
 	"curlvl" => "現在のレベル",
 	"curxp" => "現在のXP量",
-	"xpe" => "毎<b>5分</b>にどれぐらいXPをもらっていますか?",
+	"xpe" => '毎<span class="bold">5分</span>にどれぐらいXPをもらっていますか?',
 	"calculate" => "ハカル！",
 
 	"language" => "言語",
@@ -22,7 +22,7 @@ $lg = [
 	'back2' => "計算機に戻る",
 	'rawdata' => "レベル情報を見る",
 
-	'main1' => "<p>まず現在は<b>$current_level</b>レベルで, <b>$current_xp</b> XPとして考えます。 毎5分ごとに<b>$xp_earned</b>XPをもらっているのなら次のレベルに進む為にはこれぐらいの時間かかります.</p>",
+	'main1' => '<p>まず現在は<span class="bold">'.$current_level.'</span>レベルで, <span class="bold">'.$current_xp.'</span> XPとして考えます。 毎5分ごとに<span class="bold">'.$xp_earned.'</span>XPをもらっているのなら次のレベルに進む為にはこれぐらいの時間かかります.</p>',
 
 
 	'lvl' => "lvl",

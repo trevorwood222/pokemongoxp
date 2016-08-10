@@ -19,6 +19,10 @@ a{
 	color:rgba(0,0,255,1);
 }
 
+.bold{
+	font-weight: bold;
+}
+
 .container{
 	position: relative;
 	padding: 10px;

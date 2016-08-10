@@ -12,7 +12,7 @@ $lg = [
 	"header" => "XP Calculadora",
 	"curlvl" => "Nivel Actual",
 	"curxp" => "Cantidad Actual XP",
-	"xpe" => "Acerca de la cantidad de XP que está ganando cada <b>5 minutos</b>?",
+	"xpe" => 'Acerca de la cantidad de XP que está ganando cada <span class="bold">5 minutos</span>?',
 	"calculate" => "Calcular!",
 
 	"language" => "Idioma",
@@ -24,7 +24,7 @@ $lg = [
 	'back2' => "Volver a la calculadora",
 	'rawdata' => "Pokemon GO datos",
 
-	'main1' => "<p>Un nivel <b>$current_level</b>, con <b>$current_xp</b> XP , ganando <b>$xp_earned</b> XP por 5 minutos tomaría tanto tiempo por nivel.</p>",
+	'main1' => '<p>Un nivel <span class="bold">'.$current_level.'</span>, con <span class="bold">'.$current_xp.'</span> XP , ganando <span class="bold">'.$xp_earned.'</span> XP por 5 minutos tomaría tanto tiempo por nivel.</p>',
 
 	'lvl' => "lvl",
 	'time_to_reach_level' => "Tiempo para alcanzar el nivel",

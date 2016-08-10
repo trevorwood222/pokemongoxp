@@ -11,7 +11,7 @@ $lg = [
 	"header" => "XP Rechner",
 	"curlvl" => "Aktuelles Ebene",
 	"curxp" => "Aktuelle XP Betrag",
-	"xpe" => "Über wie viel XP verdienen Sie alle <b>5 Minuten</b>?",
+	"xpe" => 'Über wie viel XP verdienen Sie alle <span class="bold">5 Minuten</span>?',
 	"calculate" => "Berechnen!",
 
 	"language" => "Sprache",
@@ -23,7 +23,7 @@ $lg = [
 	'back2' => "Zurück zum Rechner",
 	'rawdata' => "Rohdaten",
 
-	'main1' => "<p> Eine Ebene <b> $current_level</b>, mit <b> $current_xp </b> XP , verdienen <b> $xp_earned </b> XP pro 5 Minuten würde dies pro Ebene lange dauern. </p>",
+	'main1' => '<p> Eine Ebene <span class="bold">'.$current_level.'</span>, mit <span class="bold">'.$current_xp.'</span> XP , verdienen <span class="bold">'.$xp_earned.'</span> XP pro 5 Minuten würde dies pro Ebene lange dauern. </p>',
 
 
 	'lvl' => "lvl",
