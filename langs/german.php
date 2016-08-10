@@ -9,9 +9,9 @@ $lg = [
 
 	//index page
 	"header" => "XP Rechner",
-	"curlvl" => "Aktuelles Ebene",
-	"curxp" => "Aktuelle XP Betrag",
-	"xpe" => 'Über wie viel XP verdienen Sie alle <span class="bold">5 Minuten</span>?',
+	"curlvl" => "Aktuelles Level",
+	"curxp" => "Aktuelle Erfahrung(XP)",
+	"xpe" => 'Wie viel Erfahrung(XP) bekommst du in <span class="bold">5 Minuten</span>?',
 	"calculate" => "Berechnen!",
 
 	"language" => "Sprache",
@@ -46,10 +46,10 @@ $lg = [
 	'lastupdated' => "Letzte Aktualisierung",
 
 
-	"level" => "Ebene",
-	"xp_req" => "XP Erforderliche",
+	"level" => "Level",
+	"xp_req" => "Erforderliche XP",
 	"total_xp_req" => "Insgesamt XP",
-	"unlocked_items" => "Entriegeltes Artikel",
+	"unlocked_items" => "Freigeschaltete Items",
 	"rewards" => "Belohnungen",
 
 
@@ -71,7 +71,7 @@ $lg = [
 	"revive" => "Beleber",
 	"maxrevive" => "Maxbeleber",
 
-	"incense" => "Raunch",
+	"incense" => "Rauch",
 	"luremodule" => "Lockmodul",
 
 	"incubator" => "Ei-Brutmaschine", // unlimited
