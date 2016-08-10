@@ -2,6 +2,9 @@
 
 Live server - www.pokemongoxp.com
 
-pokemon go xp calculator
+Pokémon GO XP Calculator
 
-made with php
+Easily calculate how long it will take for you to level up in Pokémon GO
+
+Made with php
+Languages Supported - English, Japanese, German, Spanish, French, Chinese 
