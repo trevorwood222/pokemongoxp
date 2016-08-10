@@ -55,7 +55,7 @@ $lg = [
 
 	// levels
 
-	"gym" => "Fitnessstudio",
+	"gym" => "Arena",
 
 	"pokeball" => "Pokéball",
 	"greatball" => "Superball",
