@@ -8,10 +8,8 @@ RewriteRule ^index$ index.php [NC,L,B,QSA]
 RewriteRule ^results$ results.php [NC,L,B,QSA]
 RewriteRule ^rawdata$ rawdata.php [NC,L,B,QSA]
 
-
-
-
-
+# Prevents directory browsing
+Options -Indexes
 
 # BEGIN GZIP
 <ifmodule mod_deflate.c>
