@@ -4,6 +4,7 @@ import t, {i18nInitOptions} from '../../i18n/i18n';
 import Parser from 'html-react-parser';
 import i18n from 'i18next';
 import { initReactI18next } from "react-i18next";
+import {Config} from '../../Config';
 
 export interface CalculatorProps {};
 export interface CalculatorState {
@@ -59,7 +60,7 @@ export default class Calculator extends Component <CalculatorProps, CalculatorSt
           <i>Pokemon Go</i>
           <h1>{t.t('header')}</h1>
         </div>
-        <form action="/result" method="get">
+        <form action={process.env.PUBLIC_URL+"/result"} method="get">
           <div className="form-div">
             <label>{t.t('curlvl')}</label>
             <input 

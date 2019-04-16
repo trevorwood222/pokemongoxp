@@ -41,7 +41,7 @@ export default class RawData extends Component <RawDataProps, RawDataState> {
       <div className="raw-data">
         <div>
           <h1>{t.t('rawdataforpokemongo')}</h1>
-          <a href="/">{t.t('back3')}</a>
+          <a href={process.env.PUBLIC_URL+"/"}>{t.t('back3')}</a>
         </div>
 
         <table className="rawdata-table">
