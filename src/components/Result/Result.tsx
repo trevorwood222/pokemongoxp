@@ -110,8 +110,8 @@ export default class Result extends Component <ResultProps, ResultState> {
 
     return (
       <div className="result">
-        <a className="back" href="/">{t.t('back2')}</a>
-        <a className="raw-data-button" href="/raw-data">{t.t('rawdata')}</a>
+        <a className="back" href={process.env.PUBLIC_URL+"/"}>{t.t('back2')}</a>
+        <a className="raw-data-button" href={process.env.PUBLIC_URL+"/raw-data"}>{t.t('rawdata')}</a>
         <h3 className="intro-text">
           {Parser(t.t('main1', {
             currentLevel: this.state.currentLevel,
