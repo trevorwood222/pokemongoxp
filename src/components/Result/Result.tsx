@@ -76,6 +76,10 @@ export default class Result extends Component <ResultProps, ResultState> {
       let timeToGetTo = Math.ceil(xpToGo / this.state.currentEarningAmount) * 5
       let time = this.convertMinutesToHoursAndMinutes(timeToGetTo)
 
+      if (time.minutes <= 0 && time.hours <= 0){
+        continue;
+      }
+
       children.push(<div key={i+"a"} className="first">{forLevel.level}</div>)
       children.push(<div key={i+"b"} className="second">{this.formatTime(time).toLocaleString()}</div>)
       children.push(<div key={i+"c"} className="third">
@@ -108,6 +112,8 @@ export default class Result extends Component <ResultProps, ResultState> {
 
   render() {
 
+    const listItems = this.createListItems();
+
     return (
       <div className="result">
         <a className="back" href={process.env.PUBLIC_URL+"/"}>{t.t('back2')}</a>
@@ -124,9 +130,8 @@ export default class Result extends Component <ResultProps, ResultState> {
           <div className="first">{t.t('lvl')}</div>
           <div className="second">{t.t('time_to_reach_level')}</div> 
         </div>
-
         <ul className="results-ul">
-          {this.createListItems()}
+          {listItems}
         </ul>
         <div className="results-share-div">
           <div className="fb-share-button fb_iframe_widget" data-href="http://www.pokemongoxp.com" data-layout="button" data-size="large" data-mobile-iframe="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=520425911493829&amp;container_width=43&amp;href=http%3A%2F%2Fwww.pokemongoxp.com%2F%3Flg%3Den&amp;layout=button&amp;locale=en_US&amp;mobile_iframe=true&amp;sdk=joey&amp;size=large"><span><iframe scrolling="no" allow="encrypted-media" title="fb:share_button Facebook Social Plugin" src="https://www.facebook.com/v2.7/plugins/share_button.php?app_id=520425911493829&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fd_vbiawPdxB.js%3Fversion%3D44%23cb%3Df139a5ec669445%26domain%3Dwww.pokemongoxp.com%26origin%3Dhttp%253A%252F%252Fwww.pokemongoxp.com%252Ff339c3f47835308%26relation%3Dparent.parent&amp;container_width=43&amp;href=http%3A%2F%2Fwww.pokemongoxp.com%2F%3Flg%3Den&amp;layout=button&amp;locale=en_US&amp;mobile_iframe=true&amp;sdk=joey&amp;size=large"></iframe></span></div>
