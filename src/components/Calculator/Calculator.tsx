@@ -4,7 +4,6 @@ import t, {i18nInitOptions} from '../../i18n/i18n';
 import Parser from 'html-react-parser';
 import i18n from 'i18next';
 import { initReactI18next } from "react-i18next";
-import {Config} from '../../Config';
 
 export interface CalculatorProps {};
 export interface CalculatorState {
@@ -16,11 +15,10 @@ export interface CalculatorState {
 export default class Calculator extends Component <CalculatorProps, CalculatorState> {
   constructor(props: CalculatorProps) {
     super(props);
-    
     this.state = {
-      currentLevel: 1,
-      currentXPAmount: 100,
-      currentEarningAmount: 350,
+      currentLevel: (localStorage.currentLevel === undefined) ? 1 : localStorage.currentLevel,
+      currentXPAmount: (localStorage.currentXPAmount === undefined) ? 100 : localStorage.currentXPAmount,
+      currentEarningAmount: (localStorage.currentEarningAmount === undefined) ? 350 : localStorage.currentEarningAmount,
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -42,8 +40,9 @@ export default class Calculator extends Component <CalculatorProps, CalculatorSt
         this.setState({currentEarningAmount: value});
         break;
       default:
-        break;
+        return;
     }
+    localStorage[key] = value;
   }
 
   selectOnChange(event: any) {
@@ -101,6 +100,7 @@ export default class Calculator extends Component <CalculatorProps, CalculatorSt
             <option value="ja">日本語</option>
           </select>
         </div>
+        <div className="clear"></div>
       </div>
     );
   }
