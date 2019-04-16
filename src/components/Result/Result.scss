@@ -1,0 +1,150 @@
+
+.result{
+  max-width: 800px; 
+  position: relative;
+  margin: 0 auto;
+  
+  .back, .raw-data-button{
+    display: inline-block;
+    width: 50%;
+    padding: 15px;
+  }
+  .raw-data-button{
+    text-align: right;
+  }
+  .intro-text{
+    margin: 10px 0px;
+  }
+}
+
+
+.results-ul-header {
+  position: relative;
+  background-color: rgba(238,21,21,1);
+  border: 1px solid rgba(34,34,36,1);
+}
+.results-ul-header .first, .results-ul li .first {
+  border: 1px solid rgba(34,34,36,1);
+  border-width: 0px 1px 0px 0px;
+  position: absolute;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.results-ul-header .second, .results-ul li .second {
+  position: relative;
+  margin: 0px 0px 0px 50px;
+  line-height: 40px;
+}
+
+.results-ul-header .first, .results-ul-header .second {
+  color: #FFF;
+}
+
+.results-ul {
+  position: relative;
+}
+
+.results-ul li {
+  background-color: #FFF;
+  position: relative;
+  border: 1px solid rgba(34,34,36,1);
+  border-width: 0px 1px 1px 1px;
+  overflow: hidden;
+}
+
+.results-ul li .third {
+  position: absolute;
+  padding: 8px 5px;
+  right: 0px;
+  top: 0px;
+  height: 40px;
+  text-align: center;
+  min-width: 80px;
+
+  .redButton{
+    padding: 0px 10px;
+  }
+}
+
+.results-ul li .rewards {
+  margin: 0px 0px 0px 39px;
+  
+  border: 1px solid rgba(34,34,36,1);
+  border-width: 0px 0px 0px 1px;
+
+  transition: all 0.2s;
+  max-height: 0px;
+  padding: 0px 10px;
+  &.open{
+    max-height: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+
+
+.redButton {
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 18px;
+  width: 100%;
+  outline: none;
+  border: 1px solid;
+  color: #FFF;
+  border-color: rgba(240,0,0,1);
+  border-radius: 2px;
+  margin: 0px;
+  height: 24px;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: rgba(238,21,21,.9);
+}
+.redButton:hover{
+	-moz-box-shadow: inset 0px 0px 500px rgba(0,0,0,.15);
+	-webkit-box-shadow: inset 0px 0px 500px rgba(0,0,0,.15);
+	box-shadow: inset 0px 0px 500px rgba(0,0,0,.15);
+}
+.redButton:active{
+	-moz-box-shadow: inset 0px 0px 500px rgba(0,0,0,.3);
+	-webkit-box-shadow: inset 0px 0px 500px rgba(0,0,0,.3);
+	box-shadow: inset 0px 0px 500px rgba(0,0,0,.3);
+}
+
+.results-footer-div{
+  font-size: 11px;
+  margin: 0px 0px 15px 0px;
+  padding: 15px;
+}
+
+.results-share-div{
+  padding: 20px;
+  overflow: hidden;
+  height: 60px;
+  .fb-share-button {
+    display:inline-block;
+    width: 100px;
+    iframe{
+      border: 0px;
+      width: 100%;
+    }
+  }
+  .twitter-share-button{
+    padding: 0px 10px;
+    height: 28px;line-height: 28px;
+    position: absolute;
+    display:inline-block;
+    border: 0;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: #1da1f2;
+    color: #FFF;
+  }
+}

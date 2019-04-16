@@ -1,0 +1,18 @@
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #999;
+}
+
+.rawdata-table th{
+	text-align: left;
+	padding: 3px 6px; 
+	background-color: rgba(255,0,0,.8);
+	color: #FFF;
+}
+
+.rawdata-table td{
+	padding: 3px 6px;
+}

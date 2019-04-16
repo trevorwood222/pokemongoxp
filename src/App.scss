@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box; 
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;  
+  color: #333;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif; 
+  background-color: rgba(235,235,235,1);
+}
+
+.bold {
+  font-weight: bold;
+}
