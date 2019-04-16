@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/pokemongoxp/static/js/runtime~main.5b9ce9e0.js"
   },
   {
-    "revision": "9c00816a2746787df7fe",
-    "url": "/pokemongoxp/static/js/main.99eee3e8.chunk.js"
+    "revision": "d91f9e8af80f3bc4e6de",
+    "url": "/pokemongoxp/static/js/main.27d27267.chunk.js"
   },
   {
     "revision": "525b4a0f5fb254abd410",
     "url": "/pokemongoxp/static/js/2.c65786f7.chunk.js"
   },
   {
-    "revision": "9c00816a2746787df7fe",
+    "revision": "d91f9e8af80f3bc4e6de",
     "url": "/pokemongoxp/static/css/main.a163a3e3.chunk.css"
   },
   {
-    "revision": "7e2c5f590a886e992a326aec52eea11b",
+    "revision": "2e1eaa64f0d776be16e0ced10af79c00",
     "url": "/pokemongoxp/index.html"
   }
 ];
