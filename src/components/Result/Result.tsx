@@ -3,6 +3,7 @@ import './Result.scss';
 import {commafy} from '../../common/commafy';
 import t from '../../i18n/i18n';
 import Parser from 'html-react-parser';
+import { Link } from 'react-router-dom';
 
 import levels from '../../assets/levels.json'
 
@@ -116,8 +117,10 @@ export default class Result extends Component <ResultProps, ResultState> {
 
     return (
       <div className="result">
-        <a className="back" href={process.env.PUBLIC_URL+"/"}>{t.t('back2')}</a>
-        <a className="raw-data-button" href={process.env.PUBLIC_URL+"/raw-data"}>{t.t('rawdata')}</a>
+        <Link className="back" to="/">{t.t('back2')}</Link>
+        <Link className="raw-data-button" to="/raw-data">{t.t('rawdata')}</Link>
+        {/* <a className="back" href={process.env.PUBLIC_URL+"/"}>{t.t('back2')}</a> */}
+        {/* <a className="raw-data-button" href={process.env.PUBLIC_URL+"/raw-data"}>{t.t('rawdata')}</a> */}
         <h3 className="intro-text">
           {Parser(t.t('main1', {
             currentLevel: this.state.currentLevel,

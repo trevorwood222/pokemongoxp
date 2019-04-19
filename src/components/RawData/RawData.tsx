@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './RawData.scss';
 import t from '../../i18n/i18n';
+import { Link } from 'react-router-dom';
 
 import {commafy} from '../../common/commafy';
 import levels from '../../assets/levels.json'
@@ -41,7 +42,8 @@ export default class RawData extends Component <RawDataProps, RawDataState> {
       <div className="raw-data">
         <div>
           <h1>{t.t('rawdataforpokemongo')}</h1>
-          <a href={process.env.PUBLIC_URL+"/"}>{t.t('back3')}</a>
+          <Link className="raw-data-button" to="/">{t.t('back3')}</Link>
+          {/* <a href={process.env.PUBLIC_URL+"/"}>{t.t('back3')}</a> */}
         </div>
 
         <table className="rawdata-table">

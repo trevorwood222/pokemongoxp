@@ -4,12 +4,15 @@ import t, {i18nInitOptions} from '../../i18n/i18n';
 import Parser from 'html-react-parser';
 import i18n from 'i18next';
 import { initReactI18next } from "react-i18next";
+import { Redirect } from 'react-router';
+import { url } from 'inspector';
 
 export interface CalculatorProps {};
 export interface CalculatorState {
   currentLevel: number;
   currentXPAmount: number;
   currentEarningAmount: number;
+  redirect: boolean;
 };
 
 export default class Calculator extends Component <CalculatorProps, CalculatorState> {
@@ -19,10 +22,12 @@ export default class Calculator extends Component <CalculatorProps, CalculatorSt
       currentLevel: (localStorage.currentLevel === undefined) ? 1 : localStorage.currentLevel,
       currentXPAmount: (localStorage.currentXPAmount === undefined) ? 100 : localStorage.currentXPAmount,
       currentEarningAmount: (localStorage.currentEarningAmount === undefined) ? 350 : localStorage.currentEarningAmount,
+      redirect: false,
     };
 
     this.handleChange = this.handleChange.bind(this);
     this.selectOnChange = this.selectOnChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   // beleive it or not, this is the best way... in TypeScript
@@ -52,15 +57,37 @@ export default class Calculator extends Component <CalculatorProps, CalculatorSt
     this.forceUpdate();
   }
 
+  handleSubmit(event: any){
+    event.preventDefault();
+    this.setState({
+      redirect: true,
+    })
+  }
+
+  getRedirectUrl(){
+    let url = "/result?";
+    url += "currentLevel="+this.state.currentLevel;
+    url += "&currentXPAmount="+this.state.currentXPAmount;
+    url += "&currentEarningAmount="+this.state.currentEarningAmount;
+    return url;
+  }
+
   render() {
+
+    if (this.state.redirect) {
+      const url = this.getRedirectUrl();
+      return <Redirect to={url}/>;
+    }
+
     return (  
       <div className="calculator">
         <div className="logo">
           <i>Pokemon Go</i>
           <h1>{t.t('header')}</h1>
         </div>
-        <form action={process.env.PUBLIC_URL+"/result"} method="get">
-          <div className="form-div">
+        {/* <form action={process.env.PUBLIC_URL+"/result"} method="get"> */}
+        <form onSubmit={this.handleSubmit}>   
+            <div className="form-div">
             <label>{t.t('curlvl')}</label>
             <input 
               name="currentLevel" 
