@@ -26,7 +26,7 @@ export const result = {
   timeToReachLevel: {
     de: "Zeitebene zu erreichen",
     es: "Tiempo para alcanzar el nivel",
-    en: "升级需要的时间",
+    en: "Time to reach level",
     ja: "かかる時間",
     fr: "Temps pour atteindre le niveau",
     zh: "升级需要的时间",
