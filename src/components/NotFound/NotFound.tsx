@@ -6,7 +6,7 @@ export default class NotFound extends Component {
   render() {
     return (
       <div className="not-found">
-        <p>Sorry, this page doesn't exist.2</p>
+        <p>Sorry, this page doesn't exist.</p>
       </div>
     );
   }

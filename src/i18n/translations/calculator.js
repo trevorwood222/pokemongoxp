@@ -1,0 +1,50 @@
+export const calculator = {
+  header: {
+    de: "XP Rechner",
+    es: "XP Calculadora",
+    en: "XP Calculator",
+    ja: "XP計算機",
+    fr: "XP Calculator",
+    zh: "XP计算器",
+  },
+  currentLevel: {
+    de: "Aktuelles Level",
+    es: "Nivel Actual",
+    en: "Current Level",
+    ja: "現在のレベル",
+    fr: "Niveau actuel",
+    zh: "目前等级",
+  },
+  currentXPAmount: {
+    de: "Aktuelle Erfahrung(XP)",
+    es: "Cantidad Actual XP",
+    en: "Current XP Amount",
+    ja: "現在のXP量",
+    fr: "Montant XP actuel",
+    zh: "目前XP",
+  },
+  xpEarningAmount: {
+    de: 'Wie viel Erfahrung(XP) bekommst du in <span class="bold">5 Minuten</span>?',
+    es: 'Acerca de la cantidad de XP que está ganando cada <span class="bold">5 minutos</span>?',
+    en: 'About how much XP are you earning every <span class="bold">5 minutes</span>?',
+    ja: '毎<span class="bold">5分</span>にどれぐらいXPをもらっていますか?',
+    fr: 'A propos de combien XP vous gagnez tous les <span class="bold">5 minutes</span>?',
+    zh: '每<span class="bold">5分钟</span>大约能获得多少XP?',
+  },
+  calculate: {
+    de: "Berechnen!",
+    es: "Calcular!",
+    en: "Calculate!",
+    ja: "ハカル！",
+    fr: "Calculer!",
+    zh: "计算!",
+  },
+  language: {
+    de: "Sprache",
+    es: "Idioma",
+    en: "Language",
+    ja: "言語",
+    fr: "Langue",
+    zh: "语言",
+  }
+}

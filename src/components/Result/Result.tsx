@@ -50,9 +50,9 @@ export default class Result extends Component <ResultProps, ResultState> {
   }
 
   formatTime = (time: any) => {
-    const hours = time.hours > 0 ? commafy(time.hours)+" "+t.t('hour', {count: time.hours}) : ""
+    const hours = time.hours > 0 ? commafy(time.hours)+" "+t.t('result.hour', {count: time.hours}) : ""
     const space = time.hours > 0 && time.minutes > 0 ? ", " : ""
-    const minutes = time.minutes > 0 ? time.minutes+" "+t.t('minute',{count: time.minutes}) : ""
+    const minutes = time.minutes > 0 ? time.minutes+" "+t.t('result.minute',{count: time.minutes}) : ""
     return hours+space+minutes
   }
 
@@ -84,7 +84,7 @@ export default class Result extends Component <ResultProps, ResultState> {
       children.push(<div key={i+"a"} className="first">{forLevel.level}</div>)
       children.push(<div key={i+"b"} className="second">{this.formatTime(time).toLocaleString()}</div>)
       children.push(<div key={i+"c"} className="third">
-                      <div className="redButton small" onClick={() => this.openRewards(forLevel.level)}>{t.t('rewards')}</div>
+                      <div className="redButton small" onClick={() => this.openRewards(forLevel.level)}>{t.t('general.rewards')}</div>
                     </div>)
       children.push(<div key={i+"d"} className={"rewards "+open}>{t.t(''+forLevel.rewards+'')}</div>)
 
@@ -117,12 +117,10 @@ export default class Result extends Component <ResultProps, ResultState> {
 
     return (
       <div className="result">
-        <Link className="back" to="/">{t.t('back2')}</Link>
-        <Link className="raw-data-button" to="/raw-data">{t.t('rawdata')}</Link>
-        {/* <a className="back" href={process.env.PUBLIC_URL+"/"}>{t.t('back2')}</a> */}
-        {/* <a className="raw-data-button" href={process.env.PUBLIC_URL+"/raw-data"}>{t.t('rawdata')}</a> */}
+        <Link className="back" to="/">{t.t('general.back')}</Link>
+        <Link className="raw-data-button" to="/raw-data">{t.t('result.rawdata')}</Link>
         <h3 className="intro-text">
-          {Parser(t.t('main1', {
+          {Parser(t.t('result.main', {
             currentLevel: this.state.currentLevel,
             currentXp: this.state.currentXPAmount, 
             xpEarned: this.state.currentEarningAmount,
@@ -130,8 +128,8 @@ export default class Result extends Component <ResultProps, ResultState> {
         </h3>
 
         <div className="results-ul-header">
-          <div className="first">{t.t('lvl')}</div>
-          <div className="second">{t.t('time_to_reach_level')}</div> 
+          <div className="first">{t.t('result.lvl')}</div>
+          <div className="second">{t.t('result.timeToReachLevel')}</div> 
         </div>
         <ul className="results-ul">
           {listItems}
@@ -139,7 +137,7 @@ export default class Result extends Component <ResultProps, ResultState> {
         <div className="results-share-div">
           <div className="fb-share-button fb_iframe_widget" data-href="http://www.pokemongoxp.com" data-layout="button" data-size="large" data-mobile-iframe="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=520425911493829&amp;container_width=43&amp;href=http%3A%2F%2Fwww.pokemongoxp.com%2F%3Flg%3Den&amp;layout=button&amp;locale=en_US&amp;mobile_iframe=true&amp;sdk=joey&amp;size=large"><span><iframe scrolling="no" allow="encrypted-media" title="fb:share_button Facebook Social Plugin" src="https://www.facebook.com/v2.7/plugins/share_button.php?app_id=520425911493829&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fd_vbiawPdxB.js%3Fversion%3D44%23cb%3Df139a5ec669445%26domain%3Dwww.pokemongoxp.com%26origin%3Dhttp%253A%252F%252Fwww.pokemongoxp.com%252Ff339c3f47835308%26relation%3Dparent.parent&amp;container_width=43&amp;href=http%3A%2F%2Fwww.pokemongoxp.com%2F%3Flg%3Den&amp;layout=button&amp;locale=en_US&amp;mobile_iframe=true&amp;sdk=joey&amp;size=large"></iframe></span></div>
 
-          <a className="twitter-share-button" target="_blank" href={"https://twitter.com/intent/tweet?text="+t.t('twittermessage')+"&url="+"https://www.pokemongoxp.com"}>Tweet</a>
+          <a className="twitter-share-button" target="_blank" href={"https://twitter.com/intent/tweet?text="+t.t('result.twitterMessage')+"&url="+"https://www.pokemongoxp.com"}>Tweet</a>
         </div>
         <div className="results-footer-div">
           <p>This website is not affiliated with Niantic or The Pokemon Company.</p>

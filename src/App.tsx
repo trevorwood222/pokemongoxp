@@ -10,14 +10,18 @@ import NotFound from './components/NotFound/NotFound';
 import { createBrowserHistory } from 'history';
 
 export default class App extends Component {
+
   render() {
-  
-    const history = createBrowserHistory();
+    const browserHistory = createBrowserHistory();
+
+    browserHistory.listen((location, action) => {
+      window.scrollTo(0, 0);
+    });
 
     document.documentElement.lang = i18n.t('lang');
-    // basename={process.env.PUBLIC_URL}
+    
     return (
-      <Router history={history}>
+      <Router history={browserHistory}>
         <div className="app">
           <Switch>
             <Route exact path={"/"} component={Calculator} />
@@ -28,7 +32,6 @@ export default class App extends Component {
           </Switch>
         </div>
       </Router>
-
     );
   }
 }
