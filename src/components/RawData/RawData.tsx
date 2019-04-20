@@ -41,19 +41,18 @@ export default class RawData extends Component <RawDataProps, RawDataState> {
     return (
       <div className="raw-data">
         <div>
-          <h1>{t.t('rawdataforpokemongo')}</h1>
-          <Link className="raw-data-button" to="/">{t.t('back3')}</Link>
-          {/* <a href={process.env.PUBLIC_URL+"/"}>{t.t('back3')}</a> */}
+          <h1>{t.t('rawdata.header')}</h1>
+          <Link className="raw-data-button" to="/">{t.t('general.back')}</Link>
         </div>
 
         <table className="rawdata-table">
           <tbody>
             <tr>
-              <th>{t.t('level')}</th>
-              <th>{t.t('xp_req')}</th>
-              <th>{t.t('total_xp_req')}</th>
-              <th>{t.t('unlocked_items')}</th>
-              <th>{t.t('rewards')}</th>
+              <th>{t.t('rawdata.level')}</th>
+              <th>{t.t('rawdata.xpRequired')}</th>
+              <th>{t.t('rawdata.totalXPRequired')}</th>
+              <th>{t.t('rawdata.unlockedItems')}</th>
+              <th>{t.t('general.rewards')}</th>
             </tr>
             {listItems}
           </tbody>

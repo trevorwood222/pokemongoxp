@@ -1,0 +1,42 @@
+export const rawdata = {
+  header:{
+    de: "Rohdaten für Pokemon Go",
+    es: "Pokemon GO datos",
+    en: "Raw Data for Pokémon Go",
+    ja: "Pokemon Go レベル情報",
+    fr: "Données brutes pour Pokemon Go",
+    zh: "Pokemon Go的原始数据",
+  },
+  level:{
+    de: "Level",
+    es: "Nivel",
+    en: "level",
+    ja: "レベル",
+    fr: "Niveau",
+    zh: "等级",
+  },
+  xpRequired:{
+    de: "Erforderliche XP",
+    es: "Necesario XP",
+    en: "XP Required",
+    ja: "必要なXP",
+    fr: "XP Requis",
+    zh: "需要XP",
+  },
+  totalXPRequired:{
+    de: "Insgesamt XP",
+    es: "Total XP",
+    en: "Total XP",
+    ja: "全部XP",
+    fr: "XP Total",
+    zh: "总计XP",
+  },
+  unlockedItems:{
+    de: "Freigeschaltete Items",
+    es: "Los productos desbloqueados",
+    en: "Unlocked Items",
+    ja: "新規物",
+    fr: "Articles déverrouillés",
+    zh: "解锁物品",
+  },
+}

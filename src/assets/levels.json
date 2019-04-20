@@ -18,272 +18,272 @@
     "xpReq": 1000,
     "totalXpReq": 1000,
     "unlockedItems": "",
-    "rewards": "$t(pokeball) x10"
+    "rewards": "$t(levels.pokeball) x10"
   },
   {
     "level": 3,
     "xpReq": 2000,
     "totalXpReq": 3000,
     "unlockedItems": "",
-    "rewards": "$t(pokeball) x15"
+    "rewards": "$t(levels.pokeball) x15"
   },
   {
     "level": 4,
     "xpReq": 3000,
     "totalXpReq": 6000,
     "unlockedItems": "",
-    "rewards": "$t(pokeball) x15"
+    "rewards": "$t(levels.pokeball) x15"
   },
   {
     "level": 5,
     "xpReq": 4000,
     "totalXpReq": 10000,
-    "unlockedItems": "$t(gym), $t(potion), $t(revive)",
-    "rewards": "$t(pokeball) x20, $t(potion) x10, $t(revive) x10, $t(incense) x1"
+    "unlockedItems": "$t(levels.gym), $t(levels.potion), $t(levels.revive)",
+    "rewards": "$t(levels.pokeball) x20, $t(levels.potion) x10, $t(levels.revive) x10, $t(levels.incense) x1"
   },
   {
     "level": 6,
     "xpReq": 5000,
     "totalXpReq": 15000,
     "unlockedItems": "",
-    "rewards": "$t(pokeball) x15, $t(potion) x10, $t(revive) x5, $t(incubator) x1"
+    "rewards": "$t(levels.pokeball) x15, $t(levels.potion) x10, $t(levels.revive) x5, $t(levels.incubator) x1"
   },
   {
     "level": 7,
     "xpReq": 6000,
     "totalXpReq": 21000,
     "unlockedItems": "",
-    "rewards": "$t(pokeball) x15, $t(potion) x10, $t(revive) x5, $t(incubator) x1"
+    "rewards": "$t(levels.pokeball) x15, $t(levels.potion) x10, $t(levels.revive) x5, $t(levels.incubator) x1"
   },
   {
     "level": 8,
     "xpReq": 7000,
     "totalXpReq": 28000,
-    "unlockedItems": "$t(razzberry)",
-    "rewards": "$t(pokeball) x15, $t(potion) x10, $t(revive) x5, $t(razzberry) x1, $t(luremodule) x1"
+    "unlockedItems": "$t(levels.razzberry)",
+    "rewards": "$t(levels.pokeball) x15, $t(levels.potion) x10, $t(levels.revive) x5, $t(levels.razzberry) x1, $t(levels.luremodule) x1"
   },
   {
     "level": 9,
     "xpReq": 8000,
     "totalXpReq": 36000,
     "unlockedItems": "",
-    "rewards": "$t(pokeball) x15, $t(potion) x10, $t(revive) x5, $t(razzberry) x3, $t(luckyegg) x1"
+    "rewards": "$t(levels.pokeball) x15, $t(levels.potion) x10, $t(levels.revive) x5, $t(levels.razzberry) x3, $t(levels.luckyegg) x1"
   },
   {
     "level": 10,
     "xpReq": 9000,
     "totalXpReq": 45000,
-    "unlockedItems": "$t(superpotion)",
-    "rewards": "$t(pokeball) x20, $t(superpotion) x20, $t(revive) x10, $t(razzberry) x10, $t(incense) x1, $t(luckyegg) x1, $t(eggincubator) x1, $t(luremodule) x1"
+    "unlockedItems": "$t(levels.superpotion)",
+    "rewards": "$t(levels.pokeball) x20, $t(levels.superpotion) x20, $t(levels.revive) x10, $t(levels.razzberry) x10, $t(levels.incense) x1, $t(levels.luckyegg) x1, $t(levels.eggincubator) x1, $t(levels.luremodule) x1"
   },
   {
     "level": 11,
     "xpReq": 10000,
     "totalXpReq": 55000,
     "unlockedItems": "",
-    "rewards": "$t(pokeball) x15, $t(superpotion) x10, $t(revive) x3, $t(razzberry) x3"
+    "rewards": "$t(levels.pokeball) x15, $t(levels.superpotion) x10, $t(levels.revive) x3, $t(levels.razzberry) x3"
   },
   {
     "level": 12,
     "xpReq": 10000,
     "totalXpReq": 65000,
-    "unlockedItems": "$t(greatball)",
-    "rewards": "$t(greatball) x20, $t(superpotion) x10, $t(revive) x3, $t(razzberry) x3"
+    "unlockedItems": "$t(levels.greatball)",
+    "rewards": "$t(levels.greatball) x20, $t(levels.superpotion) x10, $t(levels.revive) x3, $t(levels.razzberry) x3"
   },
   {
     "level": 13,
     "xpReq": 10000,
     "totalXpReq": 75000,
     "unlockedItems": "",
-    "rewards": "$t(greatball) x10, $t(superpotion) x10, $t(revive) x3, $t(razzberry) x3"
+    "rewards": "$t(levels.greatball) x10, $t(levels.superpotion) x10, $t(levels.revive) x3, $t(levels.razzberry) x3"
   },
   {
     "level": 14,
     "xpReq": 10000,
     "totalXpReq": 85000,
     "unlockedItems": "",
-    "rewards": "$t(greatball) x10, $t(superpotion) x10, $t(revive) x3, $t(razzberry) x3"
+    "rewards": "$t(levels.greatball) x10, $t(levels.superpotion) x10, $t(levels.revive) x3, $t(levels.razzberry) x3"
   },
   {
     "level": 15,
     "xpReq": 15000,
     "totalXpReq": 100000,
-    "unlockedItems": "$t(hyperpotion)",
-    "rewards": "$t(greatball) x15, $t(hyperpotion) x20, $t(revive) x10, $t(razzberry) x10, $t(incense) x1, $t(luckyegg) x1, $t(eggincubator) x1, $t(luremodule) x1"
+    "unlockedItems": "$t(levels.hyperpotion)",
+    "rewards": "$t(levels.greatball) x15, $t(levels.hyperpotion) x20, $t(levels.revive) x10, $t(levels.razzberry) x10, $t(levels.incense) x1, $t(levels.luckyegg) x1, $t(levels.eggincubator) x1, $t(levels.luremodule) x1"
   },
   {
     "level": 16,
     "xpReq": 20000,
     "totalXpReq": 120000,
     "unlockedItems": "",
-    "rewards": "$t(greatball) x10, $t(hyperpotion) x10, $t(revive) x5, $t(razzberry) x5"
+    "rewards": "$t(levels.greatball) x10, $t(levels.hyperpotion) x10, $t(levels.revive) x5, $t(levels.razzberry) x5"
   },
   {
     "level": 17,
     "xpReq": 20000,
     "totalXpReq": 140000,
     "unlockedItems": "",
-    "rewards": "$t(greatball) x10, $t(hyperpotion) x10, $t(revive) x5, $t(razzberry) x5"
+    "rewards": "$t(levels.greatball) x10, $t(levels.hyperpotion) x10, $t(levels.revive) x5, $t(levels.razzberry) x5"
   },
   {
     "level": 18,
     "xpReq": 20000,
     "totalXpReq": 160000,
     "unlockedItems": "",
-    "rewards": "$t(greatball) x10, $t(hyperpotion) x10, $t(revive) x5, $t(razzberry) x5"
+    "rewards": "$t(levels.greatball) x10, $t(levels.hyperpotion) x10, $t(levels.revive) x5, $t(levels.razzberry) x5"
   },
   {
     "level": 19,
     "xpReq": 25000,
     "totalXpReq": 185000,
     "unlockedItems": "",
-    "rewards": "$t(greatball) x15, $t(hyperpotion) x10, $t(revive) x5, $t(razzberry) x5"
+    "rewards": "$t(levels.greatball) x15, $t(levels.hyperpotion) x10, $t(levels.revive) x5, $t(levels.razzberry) x5"
   },
   {
     "level": 20,
     "xpReq": 25000,
     "totalXpReq": 210000,
-    "unlockedItems": "$t(ultraball)",
-    "rewards": "$t(ultraball) x20, $t(hyperpotion) x20, $t(revive) x20, $t(razzberry) x20, $t(incense) x2, $t(luckyegg) x2, $t(eggincubator) x2, $t(luremodule) x2"
+    "unlockedItems": "$t(levels.ultraball)",
+    "rewards": "$t(levels.ultraball) x20, $t(levels.hyperpotion) x20, $t(levels.revive) x20, $t(levels.razzberry) x20, $t(levels.incense) x2, $t(levels.luckyegg) x2, $t(levels.eggincubator) x2, $t(levels.luremodule) x2"
   },
   {
     "level": 21,
     "xpReq": 50000,
     "totalXpReq": 260000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x10, $t(hyperpotion) x10, $t(revive) x10, $t(razzberry) x10"
+    "rewards": "$t(levels.ultraball) x10, $t(levels.hyperpotion) x10, $t(levels.revive) x10, $t(levels.razzberry) x10"
   },
   {
     "level": 22,
     "xpReq": 75000,
     "totalXpReq": 335000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x10, $t(hyperpotion) x10, $t(revive) x10, $t(razzberry) x10"
+    "rewards": "$t(levels.ultraball) x10, $t(levels.hyperpotion) x10, $t(levels.revive) x10, $t(levels.razzberry) x10"
   },
   {
     "level": 23,
     "xpReq": 100000,
     "totalXpReq": 435000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x10, $t(hyperpotion) x10, $t(revive) x10, $t(razzberry) x10"
+    "rewards": "$t(levels.ultraball) x10, $t(levels.hyperpotion) x10, $t(levels.revive) x10, $t(levels.razzberry) x10"
   },
   {
     "level": 24,
     "xpReq": 125000,
     "totalXpReq": 560000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x15, $t(hyperpotion) x10, $t(revive) x10, $t(razzberry) x10"
+    "rewards": "$t(levels.ultraball) x15, $t(levels.hyperpotion) x10, $t(levels.revive) x10, $t(levels.razzberry) x10"
   },
   {
     "level": 25,
     "xpReq": 150000,
     "totalXpReq": 710000,
-    "unlockedItems": "$t(maxpotion)",
-    "rewards": "$t(ultraball) x25, $t(maxpotion) x20, $t(revive) x15, $t(razzberry) x15, $t(incense) x1, $t(luckyegg) x1, $t(eggincubator) x1, $t(luremodule) x1"
+    "unlockedItems": "$t(levels.maxpotion)",
+    "rewards": "$t(levels.ultraball) x25, $t(levels.maxpotion) x20, $t(levels.revive) x15, $t(levels.razzberry) x15, $t(levels.incense) x1, $t(levels.luckyegg) x1, $t(levels.eggincubator) x1, $t(levels.luremodule) x1"
   },
   {
     "level": 26,
     "xpReq": 190000,
     "totalXpReq": 900000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x10, $t(maxpotion) x15, $t(revive) x10, $t(razzberry) x15"
+    "rewards": "$t(levels.ultraball) x10, $t(levels.maxpotion) x15, $t(levels.revive) x10, $t(levels.razzberry) x15"
   },
   {
     "level": 27,
     "xpReq": 200000,
     "totalXpReq": 1100000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x10, $t(maxpotion) x15, $t(revive) x10, $t(razzberry) x15"
+    "rewards": "$t(levels.ultraball) x10, $t(levels.maxpotion) x15, $t(levels.revive) x10, $t(levels.razzberry) x15"
   },
   {
     "level": 28,
     "xpReq": 250000,
     "totalXpReq": 1350000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x10, $t(maxpotion) x15, $t(revive) x10, $t(razzberry) x15"
+    "rewards": "$t(levels.ultraball) x10, $t(levels.maxpotion) x15, $t(levels.revive) x10, $t(levels.razzberry) x15"
   },
   {
     "level": 29,
     "xpReq": 300000,
     "totalXpReq": 1650000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x10, $t(maxpotion) x15, $t(revive) x10, $t(razzberry) x15"
+    "rewards": "$t(levels.ultraball) x10, $t(levels.maxpotion) x15, $t(levels.revive) x10, $t(levels.razzberry) x15"
   },
   {
     "level": 30,
     "xpReq": 350000,
     "totalXpReq": 2000000,
-    "unlockedItems": "$t(maxrevive)",
-    "rewards": "$t(ultraball) x30, $t(maxpotion) x20, $t(maxrevive) x20, $t(razzberry) x20, $t(incense) x3, $t(luckyegg) x3, $t(eggincubator) x3, $t(luremodule) x3"
+    "unlockedItems": "$t(levels.maxrevive)",
+    "rewards": "$t(levels.ultraball) x30, $t(levels.maxpotion) x20, $t(levels.maxrevive) x20, $t(levels.razzberry) x20, $t(levels.incense) x3, $t(levels.luckyegg) x3, $t(levels.eggincubator) x3, $t(levels.luremodule) x3"
   },
   {
     "level": 31,
     "xpReq": 500000,
     "totalXpReq": 2500000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x10, $t(maxpotion) x15, $t(maxrevive) x10, $t(razzberry) x15"
+    "rewards": "$t(levels.ultraball) x10, $t(levels.maxpotion) x15, $t(levels.maxrevive) x10, $t(levels.razzberry) x15"
   },
   {
     "level": 32,
     "xpReq": 500000,
     "totalXpReq": 3000000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x10, $t(maxpotion) x15, $t(maxrevive) x10, $t(razzberry) x15"
+    "rewards": "$t(levels.ultraball) x10, $t(levels.maxpotion) x15, $t(levels.maxrevive) x10, $t(levels.razzberry) x15"
   },
   {
     "level": 33,
     "xpReq": 750000,
     "totalXpReq": 3750000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x10, $t(maxpotion) x15, $t(maxrevive) x10, $t(razzberry) x15"
+    "rewards": "$t(levels.ultraball) x10, $t(levels.maxpotion) x15, $t(levels.maxrevive) x10, $t(levels.razzberry) x15"
   },
   {
     "level": 34,
     "xpReq": 1000000,
     "totalXpReq": 4750000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x10, $t(maxpotion) x15, $t(maxrevive) x10, $t(razzberry) x15"
+    "rewards": "$t(levels.ultraball) x10, $t(levels.maxpotion) x15, $t(levels.maxrevive) x10, $t(levels.razzberry) x15"
   },
   {
     "level": 35,
     "xpReq": 1250000,
     "totalXpReq": 6000000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x30, $t(maxpotion) x20, $t(maxrevive) x20, $t(razzberry) x20, $t(incense) x2, $t(luckyegg) x1, $t(luremodule) x1"
+    "rewards": "$t(levels.ultraball) x30, $t(levels.maxpotion) x20, $t(levels.maxrevive) x20, $t(levels.razzberry) x20, $t(levels.incense) x2, $t(levels.luckyegg) x1, $t(levels.luremodule) x1"
   },
   {
     "level": 36,
     "xpReq": 1500000,
     "totalXpReq": 7500000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x20, $t(maxpotion) x20, $t(maxrevive) x10, $t(razzberry) x20"
+    "rewards": "$t(levels.ultraball) x20, $t(levels.maxpotion) x20, $t(levels.maxrevive) x10, $t(levels.razzberry) x20"
   },
   {
     "level": 37,
     "xpReq": 2000000,
     "totalXpReq": 9500000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x20, $t(maxpotion) x20, $t(maxrevive) x10, $t(razzberry) x20"
+    "rewards": "$t(levels.ultraball) x20, $t(levels.maxpotion) x20, $t(levels.maxrevive) x10, $t(levels.razzberry) x20"
   },
   {
     "level": 38,
     "xpReq": 2500000,
     "totalXpReq": 12000000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x20, $t(maxpotion) x20, $t(maxrevive) x10, $t(razzberry) x20"
+    "rewards": "$t(levels.ultraball) x20, $t(levels.maxpotion) x20, $t(levels.maxrevive) x10, $t(levels.razzberry) x20"
   },
   {
     "level": 39,
     "xpReq": 3000000,
     "totalXpReq": 15000000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x20, $t(maxpotion) x20, $t(maxrevive) x10, $t(razzberry) x20"
+    "rewards": "$t(levels.ultraball) x20, $t(levels.maxpotion) x20, $t(levels.maxrevive) x10, $t(levels.razzberry) x20"
   },
   {
     "level": 40,
     "xpReq": 5000000,
     "totalXpReq": 20000000,
     "unlockedItems": "",
-    "rewards": "$t(ultraball) x40, $t(maxpotion) x40, $t(maxrevive) x40, $t(razzberry) x40, $t(incense) x4, $t(luckyegg) x4, $t(eggincubator) x4, $t(luremodule) x4"
+    "rewards": "$t(levels.ultraball) x40, $t(levels.maxpotion) x40, $t(levels.maxrevive) x40, $t(levels.razzberry) x40, $t(levels.incense) x4, $t(levels.luckyegg) x4, $t(levels.eggincubator) x4, $t(levels.luremodule) x4"
   }
 ]

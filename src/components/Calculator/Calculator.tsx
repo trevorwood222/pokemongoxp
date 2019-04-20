@@ -5,9 +5,10 @@ import Parser from 'html-react-parser';
 import i18n from 'i18next';
 import { initReactI18next } from "react-i18next";
 import { Redirect } from 'react-router';
-import { url } from 'inspector';
 
-export interface CalculatorProps {};
+export interface CalculatorProps {
+  history: any;
+};
 export interface CalculatorState {
   currentLevel: number;
   currentXPAmount: number;
@@ -59,6 +60,7 @@ export default class Calculator extends Component <CalculatorProps, CalculatorSt
 
   handleSubmit(event: any){
     event.preventDefault();
+    this.props.history.push("/");
     this.setState({
       redirect: true,
     })
@@ -83,12 +85,11 @@ export default class Calculator extends Component <CalculatorProps, CalculatorSt
       <div className="calculator">
         <div className="logo">
           <i>Pokemon Go</i>
-          <h1>{t.t('header')}</h1>
+          <h1>{t.t('calculator.header')}</h1>
         </div>
-        {/* <form action={process.env.PUBLIC_URL+"/result"} method="get"> */}
         <form onSubmit={this.handleSubmit}>   
             <div className="form-div">
-            <label>{t.t('curlvl')}</label>
+            <label>{t.t('calculator.currentLevel')}</label>
             <input 
               name="currentLevel" 
               type="number" 
@@ -96,7 +97,7 @@ export default class Calculator extends Component <CalculatorProps, CalculatorSt
               onChange={this.handleChange} />
           </div>
           <div className="form-div">
-            <label>{t.t('curxp')}</label>
+            <label>{t.t('calculator.currentXPAmount')}</label>
             <input 
               name="currentXPAmount" 
               type="number" 
@@ -104,7 +105,7 @@ export default class Calculator extends Component <CalculatorProps, CalculatorSt
               onChange={this.handleChange} />
           </div>
           <div className="form-div">
-            <label>{Parser(t.t('xpe'))}</label>
+            <label>{Parser(t.t('calculator.xpEarningAmount'))}</label>
             <input 
               name="currentEarningAmount" 
               type="number" 
@@ -112,12 +113,12 @@ export default class Calculator extends Component <CalculatorProps, CalculatorSt
               onChange={this.handleChange} />
           </div>
           <div className="form-div button">
-            <input type="submit" value={''+t.t('calculate')+''}/>
+            <input type="submit" value={''+t.t('calculator.calculate')+''}/>
           </div>
         </form>
 
         <div className="language-option">
-          <p>Language: </p>
+          <p>{t.t('calculator.language')}: </p>
           <select onChange={this.selectOnChange} value={localStorage.language}>
             <option value="de">Deutsch</option>
             <option value="en">English</option>
