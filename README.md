@@ -1,4 +1,4 @@
-## Pokémon Go XP Calculator (pokemongoxp.com)
+## Pokémon Go XP Calculator http://pokemongoxp.com/
 A calculator that calculates the amount of time it will take to reach the next level at ones current progress
 
 ## Tech stack
