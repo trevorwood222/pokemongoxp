@@ -141,7 +141,7 @@ export default class Result extends Component <ResultProps, ResultState> {
         </div>
         <div className="results-footer-div">
           <p>This website is not affiliated with Niantic or The Pokemon Company.</p>
-          <p>Made by Trevor Wood - <a href="https://twitter.com/frogg616">Twitter</a> - <a href="https://github.com/trevorwood222">Github</a></p>
+          <p>Made by Trevor Wood - <a href="https://twitter.com/trevorwood222">Twitter</a> - <a href="https://github.com/trevorwood222">Github</a></p>
         </div>
       </div>
     );
