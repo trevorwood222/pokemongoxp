@@ -34,11 +34,13 @@ export default class Result extends Component <ResultProps, ResultState> {
     let currentLevel = levels[0]
 
     for (let i = 0; i < levels.length; i++) {
-      if (levels[i].level == this.state.currentLevel)
-      currentLevel = levels[i]
-      break
+      if (levels[i].level == level){
+        currentLevel = levels[i]
+        return currentLevel
+      }
     }
 
+    console.error("getCurrentLevelObject could not find level")
     return currentLevel
   }
 
@@ -73,7 +75,7 @@ export default class Result extends Component <ResultProps, ResultState> {
         open = "open"
       }
 
-      let xpToGo = forLevel.totalXpReq - (currentLevel.totalXpReq+this.state.currentXPAmount)
+      let xpToGo = forLevel.totalXpReq - (currentLevel.totalXpReq+parseInt(this.state.currentXPAmount))
       let timeToGetTo = Math.ceil(xpToGo / this.state.currentEarningAmount) * 5
       let time = this.convertMinutesToHoursAndMinutes(timeToGetTo)
 
