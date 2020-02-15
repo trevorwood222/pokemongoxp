@@ -13,6 +13,7 @@ export interface CalculatorState {
   currentLevel: number;
   currentXPAmount: number;
   currentEarningAmount: number;
+  language: string;
   redirect: boolean;
 };
 
@@ -23,6 +24,7 @@ export default class Calculator extends Component <CalculatorProps, CalculatorSt
       currentLevel: (localStorage.currentLevel === undefined) ? 1 : localStorage.currentLevel,
       currentXPAmount: (localStorage.currentXPAmount === undefined) ? 100 : localStorage.currentXPAmount,
       currentEarningAmount: (localStorage.currentEarningAmount === undefined) ? 350 : localStorage.currentEarningAmount,
+      language: (localStorage.getItem("language") === null) ? "en" : localStorage.language,
       redirect: false,
     };
 
@@ -119,16 +121,25 @@ export default class Calculator extends Component <CalculatorProps, CalculatorSt
 
         <div className="language-option">
           <p>{t.t('calculator.language')}: </p>
-          <select onChange={this.selectOnChange} value={localStorage.language}>
+          <select onChange={this.selectOnChange} value={this.state.language}>
             <option value="de">Deutsch</option>
             <option value="en">English</option>
             <option value="es">Español</option>
             <option value="fr">français</option>
+            {/* <option value="ru">русский</option> */}
             <option value="zh">中文</option>
             <option value="ja">日本語</option>
           </select>
         </div>
         <div className="clear"></div>
+        <div className="bottom-info">
+          <p>Related</p>
+          <ul>
+            <li><a href="https://swiperino.com">Swiperino - Tinder Auto Liker</a></li>
+            <li><a href="https://dreolo.com">Dreolo - Software Company</a></li>
+            <li><a href="https://trevorwood.com">Trevor Wood</a></li>
+          </ul>
+        </div>
       </div>
     );
   }
