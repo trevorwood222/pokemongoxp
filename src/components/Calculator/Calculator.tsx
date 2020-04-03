@@ -135,8 +135,6 @@ export default class Calculator extends Component <CalculatorProps, CalculatorSt
         <div className="bottom-info">
           <p>Related</p>
           <ul>
-            <li><a href="https://swiperino.com">Swiperino - Tinder Auto Liker</a></li>
-            <li><a href="https://dreolo.com">Dreolo - Software Company</a></li>
             <li><a href="https://trevorwood.com">Trevor Wood</a></li>
           </ul>
         </div>
