@@ -355,7 +355,7 @@
     "level": 50,
     "xpReq": 30000000,
     "totalXpReq": 176000000,
-    "unlockedItems": "",
-    "rewards": "$t(levels.ultraball) x50, $t(levels.maxpotion) x50, Elite Charge TM x1, XL Candy x2, Incense x5, Lucky Eggs x5, Super Incubators x5, Lure Modules x5, Level 50 Jackets (Style Reward) x5"
+    "unlockedItems": "Level 50 Jackets",
+    "rewards": "$t(levels.ultraball) x50, $t(levels.maxpotion) x50, Elite Charge TM x1, XL Candy x2, Incense x5, Lucky Eggs x5, Super Incubators x5, Lure Modules x5"
   }
 ]
